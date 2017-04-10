@@ -1,0 +1,41 @@
+{
+  "name": "hel-bootstrap-3",
+  "version": "0.1.0",
+  "description": "City of Helsinki themed Boostrap 3 SASS library",
+  "repository": "terotic/hel-bootstrap-3",
+  "directories": {
+    "doc": "docs"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "grunt"
+  },
+  "keywords": [],
+  "author": {
+    "name" : "Tero Tikkanen",
+    "email" : "tero.tikkanen@hel.fi",
+    "url" : "http://dev.hel.fi/"
+    },
+  "license": "MIT",
+  "devDependencies": {
+    "bootstrap-sass": "^3.3.7",
+    "grunt": "^1.0.1",
+    "grunt-concurrent": "^2.3.1",
+    "grunt-contrib-watch": "^1.0.0",
+    "grunt-sass": "^2.0.0",
+    "grunt-shell": "^2.1.0",
+    "load-grunt-tasks": "^3.5.2",
+    "webpack": "^2.2.1"
+  },
+  "dependencies": {
+    "bootstrap-sass": "^3.3.7"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/terotic/hel-bootstrap-3.git"
+  },
+  "bugs": {
+    "url": "https://github.com/terotic/hel-bootstrap-3/issues"
+  },
+  "homepage": "https://github.com/terotic/hel-bootstrap-3"
+}
