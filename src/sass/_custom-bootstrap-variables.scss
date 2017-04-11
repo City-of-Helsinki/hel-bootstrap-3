@@ -16,7 +16,7 @@ $gray-light:             $medium-gray; // #777
 $gray-lighter:           $light-gray; // #eee
 
 $brand-primary:         $theme-primary-dark; // #337ab7
-$brand-success:         $spora;
+$brand-success:         $tram;
 $brand-info:            $bus;
 $brand-warning:         $summer;
 $brand-danger:          $brick;
@@ -32,9 +32,9 @@ $body-bg:               #fff !default;
 $text-color:            $gray-dark !default;
 
 //** Global textual link color.
-$link-color:            $black;
+$link-color:            $bus;
 //** Link hover color set via `darken()` function.
-$link-hover-color:      $bus;
+$link-hover-color:      $theme-primary-dark;
 //** Link hover decoration.
 $link-hover-decoration: underline !default;
 
@@ -504,7 +504,7 @@ $jumbotron-heading-font-size:    ceil(($font-size-base * 4.5)) !default;
 //
 //## Define colors for form feedback states and, by default, alerts.
 
-$state-success-text:             $spora;
+$state-success-text:             $tram;
 $state-success-bg:               $copper;
 $state-success-border:           transparent;
 

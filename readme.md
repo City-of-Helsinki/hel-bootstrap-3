@@ -1,5 +1,7 @@
 # City of Helsinki Bootstrap Theme
 
+:bangbang: :bangbang: :bangbang: Under development. For setup testing purposes only :bangbang: :bangbang: :bangbang:
+
 This is the documentation for City of Helsinki [Bootstrap](https://getboostrap.com) theme. We are currently testing the best ways to deliver theming documentation and files.
 
 ## Contents
@@ -33,6 +35,23 @@ Or customise the theme and exclude the Bootstrap components you are not using
 // you can copy the original _bootstrap.scss and comment out the components you will not be using
 @import bootstrap-custom
 ```
+
+## Files
+
+``
+_hel-variables.scss
+``
+: Helsinki UI and Brand specific variables
+
+``
+_app-variables.scss
+``
+: App specific setup. Modify this to customize your app.
+
+``
+_custom-bootstrap-variables.scss
+``
+: Bootstrap variables with theme modifications
 
 ## Bootstrap components
 

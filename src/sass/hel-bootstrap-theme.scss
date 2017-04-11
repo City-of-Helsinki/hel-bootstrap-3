@@ -1,7 +1,9 @@
 @charset "utf-8";
 
 // Import Helsinki font files here. For licencing reasons font files are not publicly shared.
+@import url('https://dev.hel.fi/~terotik/cdn/fonts/HelsinkiGrotesk.css'); // load fonts
 
 @import "hel-variables"; // Helsinki specific variables
 @import "custom-bootstrap-variables"; // modified Bootstrap variables file
 @import 'bootstrap'; // load Bootstrap
+@import 'documentation-styles'; // load Bootstrap
