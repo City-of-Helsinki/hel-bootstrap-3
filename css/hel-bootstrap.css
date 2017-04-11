@@ -5819,55 +5819,55 @@ button.close {
   height: 8rem; }
 
 .bg--silver {
-  background-color: #dedfe1; }
+  background-color: #dedfe1 !important; }
 
 .bg--gold {
-  background-color: #c2a251; }
+  background-color: #c2a251 !important; }
 
 .bg--black {
-  background-color: #000000; }
+  background-color: #000000 !important; }
 
 .bg--copper {
-  background-color: #00d7a7; }
+  background-color: #00d7a7 !important; }
 
 .bg--bus {
-  background-color: #0000bf; }
+  background-color: #0000bf !important; }
 
 .bg--coat {
-  background-color: #0072c6; }
+  background-color: #0072c6 !important; }
 
 .bg--fog {
-  background-color: #9fc9eb; }
+  background-color: #9fc9eb !important; }
 
 .bg--metro {
-  background-color: #fd4f00; }
+  background-color: #fd4f00 !important; }
 
 .bg--brick {
-  background-color: #bd2719; }
+  background-color: #bd2719 !important; }
 
 .bg--light-gray {
-  background-color: #ebedf1; }
+  background-color: #ebedf1 !important; }
 
 .bg--suomenlinna {
-  background-color: #f5a3c7; }
+  background-color: #f5a3c7 !important; }
 
 .bg--engel {
-  background-color: #ffe977; }
+  background-color: #ffe977 !important; }
 
 .bg--tram {
-  background-color: #009246; }
+  background-color: #009246 !important; }
 
 .bg--summer {
-  background-color: #ffc61e; }
+  background-color: #ffc61e !important; }
 
 .bg--dark-gray {
-  background-color: #525a65; }
+  background-color: #525a65 !important; }
 
 .bg--medium-gray {
-  background-color: #abb2bd; }
+  background-color: #abb2bd !important; }
 
 .bg--white {
-  background-color: #ffffff; }
+  background-color: #ffffff !important; }
 
 .text--silver {
   color: #dedfe1; }
