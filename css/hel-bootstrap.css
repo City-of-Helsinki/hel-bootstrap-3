@@ -5870,6 +5870,9 @@ button.close {
   .hidden-print {
     display: none !important; } }
 
+.bs-component {
+  margin-bottom: 2em; }
+
 .panel--color > .panel-heading {
   height: 8rem; }
 
@@ -5974,3 +5977,86 @@ button.close {
 
 .text--white {
   color: #ffffff; }
+
+.partition-test {
+  color: #ffffff;
+  padding: 2em;
+  height: 12em;
+  background-repeat: no-repeat; }
+
+.partition-scale-100 {
+  background-size: 800px 800px; }
+
+.partition-scale-200 {
+  background-size: 1600px 1600px; }
+
+.partition-scale-300 {
+  background-size: 2400px 2400px; }
+
+.partition-scale-400 {
+  background-size: 3200px 3200px; }
+
+.partition-angle-0 {
+  background-position: left 0 top 10px; }
+  .partition-angle-0.partition-offset-100 {
+    background-position: left 0 top 100px; }
+  .partition-angle-0.partition-offset-200 {
+    background-position: left 0 top 200px; }
+
+.partition-angle-45 {
+  background-position: bottom 0 left 10px; }
+  .partition-angle-45.partition-offset-100 {
+    background-position: bottom 0 left 100px; }
+  .partition-angle-45.partition-offset-200 {
+    background-position: bottom 0 left 200px; }
+
+.partition-angle-90 {
+  background-position: bottom 0 left 10px; }
+  .partition-angle-90.partition-offset-100 {
+    background-position: bottom 0 left 100px; }
+  .partition-angle-90.partition-offset-200 {
+    background-position: bottom 0 left 200px; }
+
+.partition-angle-145 {
+  background-position: top 0 left 10px; }
+  .partition-angle-145.partition-offset-100 {
+    background-position: top 0 left 100px; }
+  .partition-angle-145.partition-offset-200 {
+    background-position: top 0 left 200px; }
+
+.partition-angle-180 {
+  background-position: left 0 bottom 10px; }
+  .partition-angle-180.partition-offset-100 {
+    background-position: left 0 bottom 100px; }
+  .partition-angle-180.partition-offset-200 {
+    background-position: left 0 bottom 200px; }
+
+.partition-pulse-brick.partition-angle-0 {
+  background-image: url(/assets/koro-pulse-brick-0.svg); }
+
+.partition-pulse-brick.partition-angle-45 {
+  background-image: url(/assets/koro-pulse-brick-45.svg); }
+
+.partition-pulse-brick.partition-angle-90 {
+  background-image: url(/assets/koro-pulse-brick-90.svg); }
+
+.partition-pulse-brick.partition-angle-145 {
+  background-image: url(/assets/koro-pulse-brick-145.svg); }
+
+.partition-pulse-brick.partition-angle-180 {
+  background-image: url(/assets/koro-pulse-brick-180.svg); }
+
+.partition-storm-metro.partition-angle-0 {
+  background-image: url(/assets/koro-storm-metro-0.svg); }
+
+.partition-storm-metro.partition-angle-45 {
+  background-image: url(/assets/koro-storm-metro-45.svg); }
+
+.partition-storm-metro.partition-angle-90 {
+  background-image: url(/assets/koro-storm-metro-90.svg); }
+
+.partition-storm-metro.partition-angle-145 {
+  background-image: url(/assets/koro-storm-metro-145.svg); }
+
+.partition-storm-metro.partition-angle-180 {
+  background-image: url(/assets/koro-storm-metro-180.svg); }
