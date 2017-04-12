@@ -1756,16 +1756,10 @@
   </div>
 </article>
 <!-- =================================================================== -->
-<!-- tabs ============================================================ -->
+<!-- Navigation ============================================================ -->
 <!-- =================================================================== -->
+##Navigation
 <article>
-  <div class="row">
-    <div class="col-xs-12">
-      <div class="page-header">
-        <h2 class="doc-section-title" id="tabs">Navigation</h2>
-      </div>
-    </div>
-  </div>
   <div class="row">
     <div class="col-xs-12">
       <h3 class="bs-component-title">Tabs</h3>

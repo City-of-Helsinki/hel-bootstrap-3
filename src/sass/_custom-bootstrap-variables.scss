@@ -373,7 +373,7 @@ $navbar-padding-vertical:          (($navbar-height - $line-height-computed) / 2
 $navbar-collapse-max-height:       340px !default;
 
 $navbar-default-color:             $brand-primary;
-$navbar-default-bg:                #fff;
+$navbar-default-bg:                $theme-primary-light;
 $navbar-default-border:            #fff;
 
 // Navbar links
@@ -399,7 +399,7 @@ $navbar-default-toggle-border-color:       #ddd !default;
 //=== Inverted navbar
 // Reset inverted navbar basics
 $navbar-inverse-color:                      $white;
-$navbar-inverse-bg:                         transparent;
+$navbar-inverse-bg:                         $theme-primary-dark;
 $navbar-inverse-border:                     transparent;
 
 // Inverted navbar links
