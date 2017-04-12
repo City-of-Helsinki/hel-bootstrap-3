@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        
+        
+        
+        <link rel="shortcut icon" href="./img/favicon.ico">
+        <title>Home - Helsinki Bootstrap components</title>
+        <link href="./css/hel-bootstrap.css" rel="stylesheet">
+        <link rel="stylesheet" href="./css/highlight.css">
+        <link href="./css/base.css" rel="stylesheet">
+        <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
+        <!--[if lt IE 9]>
+            <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.3/html5shiv.js"></script>
+            <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+        <![endif]-->
+
+        <script src="./js/jquery-1.10.2.min.js"></script>
+        <script src="./js/bootstrap-3.0.3.min.js"></script>
+        <script src="./js/highlight.pack.js"></script>
+         
+    </head>
+
+    <body>
+
+        <div class="navbar navbar-default navbar-fixed-top" role="navigation">
+    <div class="container">
+
+        <!-- Collapsed navigation -->
+        <div class="navbar-header">
+            <!-- Expander button -->
+            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+            </button>
+            <a class="navbar-brand" href=".">Helsinki Bootstrap components</a>
+        </div>
+
+        <!-- Expanded navigation -->
+        <div class="navbar-collapse collapse">
+            <!-- Main navigation -->
+            <ul class="nav navbar-nav">
+            
+            
+                <li class="active">
+                    <a href=".">Home</a>
+                </li>
+            
+            
+            
+                <li >
+                    <a href="bootstrap_test/">Bootstrap test</a>
+                </li>
+            
+            
+            
+                <li >
+                    <a href="brand/">Brand</a>
+                </li>
+            
+            
+            
+                <li >
+                    <a href="markdown/">Markdown</a>
+                </li>
+            
+            
+            </ul>
+
+            <!-- Search, Navigation and Repo links -->
+            <ul class="nav navbar-nav navbar-right">
+                    <li class="disabled">
+                        <a rel="next" >
+                            <i class="fa fa-arrow-left"></i> Previous
+                        </a>
+                    </li>
+                    <li >
+                        <a rel="prev" href="bootstrap_test/">
+                            Next <i class="fa fa-arrow-right"></i>
+                        </a>
+                    </li>
+                
+            </ul>
+        </div>
+    </div>
+</div>
+
+        <div class="container">
+                <div class="col-md-3"><div class="bs-sidebar hidden-print affix well" role="complementary">
+    <ul class="nav bs-sidenav">
+      
+    
+        <li class="main active"><a href="#city-of-helsinki-bootstrap-theme">City of Helsinki Bootstrap Theme</a></li>
+        
+            <li><a href="#contents">Contents</a></li>
+        
+            <li><a href="#install">Install</a></li>
+        
+            <li><a href="#use-as-it-is">Use as it is</a></li>
+        
+            <li><a href="#use-customised">Use customised</a></li>
+        
+            <li><a href="#files">Files</a></li>
+        
+            <li><a href="#bootstrap-components">Bootstrap components</a></li>
+        
+            <li><a href="#develop">Develop</a></li>
+        
+    
+    
+    </ul>
+</div></div>
+                <div class="col-md-9" role="main">
+
+<h1 id="city-of-helsinki-bootstrap-theme">City of Helsinki Bootstrap Theme</h1>
+<table><tr><td><h5>!!!!!!</h5> This theme is under development. Use for setup testing purposes only.<h5>!!!!!!</h5></td></tr></table>
+
+<p>This is the documentation for City of Helsinki <a href="https://getboostrap.com">Bootstrap</a> theme. We are currently testing the best ways to deliver theming documentation and files. Source <a href="https://github.com/terotic/hel-bootstrap-3">here</a>.</p>
+<h2 id="contents">Contents</h2>
+<ul>
+<li>Documentation - Made with <a href="http://www.mkdocs.org">Mkdocs</a></li>
+<li>Bootstrap sass theme - Available as npm package</li>
+</ul>
+<h2 id="install">Install</h2>
+<p>Install or add Bootstrap sass theme to your application</p>
+<pre><code>npm install hel-bootstrap-theme
+</code></pre>
+
+<h2 id="use-as-it-is">Use as it is</h2>
+<p>You can now either import the complete theme with all components</p>
+<pre><code>@import hel-bootstrap-theme;
+</code></pre>
+
+<h2 id="use-customised">Use customised</h2>
+<p>Or customise the theme and exclude the Bootstrap components you are not using</p>
+<pre><code>@import hel-variables;
+
+// you can override bootstrap variables by adding your own variables file
+@import app-custom-variables;
+
+// you can copy the original _bootstrap.scss and comment out the components you will not be using
+@import bootstrap-custom
+</code></pre>
+
+<h2 id="files">Files</h2>
+<p><code>_hel-variables.scss</code>
+: Helsinki UI and Brand specific variables</p>
+<p><code>_app-variables.scss</code>
+: App specific setup. Modify this to customize your app.</p>
+<p><code>_custom-bootstrap-variables.scss</code>
+: Bootstrap variables with theme modifications</p>
+<h2 id="bootstrap-components">Bootstrap components</h2>
+<p>More information about Bootstrap-sass <a href="https://github.com/twbs/bootstrap-sass">here</a> and the use of Bootstrap components <a href="http://getbootstrap.com/components/">here</a></p>
+<h2 id="develop">Develop</h2>
+<ul>
+<li>Clone this repository</li>
+<li><code>pip install requirements.txt</code></li>
+<li><code>npm install</code></li>
+<li><code>grunt dev</code></li>
+</ul></div>
+        </div>
+
+    <footer class="col-md-12">
+        <hr>
+        
+        <center>Documentation built with <a href="http://www.mkdocs.org/">MkDocs</a>.</center>
+    </footer>
+        <script src="./js/base.js"></script>
+    </body>
+</html>

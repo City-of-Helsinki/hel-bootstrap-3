@@ -1,7 +1,7 @@
 # City of Helsinki Bootstrap Theme
 
 <table><tr><td><h5>!!!!!!</h5> This theme is under development. Use for setup testing purposes only.<h5>!!!!!!</h5></td></tr></table>
-This is the documentation for City of Helsinki [Bootstrap](https://getboostrap.com) theme. We are currently testing the best ways to deliver theming documentation and files.
+This is the documentation for City of Helsinki [Bootstrap](https://getboostrap.com) theme. We are currently testing the best ways to deliver theming documentation and files. Source [here](https://github.com/terotic/hel-bootstrap-3).
 
 ## Contents
 

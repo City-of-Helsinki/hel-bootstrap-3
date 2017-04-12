@@ -1,73 +1,77 @@
+.bs-component {
+  margin-bottom: 2em;
+}
+
 .panel--color > .panel-heading {
  height: 8rem;
 }
 
 .bg--silver {
- background-color: $silver;
+ background-color: $silver !important;
 }
 
 .bg--gold {
- background-color: $gold;
+ background-color: $gold !important;
 }
 
 .bg--black {
- background-color: $black;
+ background-color: $black !important;
 }
 
 .bg--copper {
- background-color: $copper;
+ background-color: $copper !important;
 }
 
 .bg--bus {
- background-color: $bus;
+ background-color: $bus !important;
 }
 
 .bg--coat {
- background-color: $coat;
+ background-color: $coat !important;
 }
 
 .bg--fog {
- background-color: $fog;
+ background-color: $fog !important;
 }
 
 .bg--metro {
- background-color: $metro;
+ background-color: $metro !important;
 }
 
 .bg--brick {
- background-color: $brick;
+ background-color: $brick !important;
 }
 
 .bg--light-gray {
- background-color: $light-gray;
+ background-color: $light-gray !important;
 }
 
 .bg--suomenlinna {
- background-color: $suomenlinna;
+ background-color: $suomenlinna !important;
 }
 
 .bg--engel {
- background-color: $engel;
+ background-color: $engel !important;
 }
 
 .bg--tram {
- background-color: $tram;
+ background-color: $tram !important;
 }
 
 .bg--summer {
- background-color: $summer;
+ background-color: $summer !important;
 }
 
 .bg--dark-gray {
- background-color: $dark-gray;
+ background-color: $dark-gray !important;
 }
 
 .bg--medium-gray {
- background-color: $medium-gray;
+ background-color: $medium-gray !important;
 }
 
 .bg--white {
- background-color: $white;
+ background-color: $white !important;
 }
 
 
@@ -138,4 +142,122 @@
 
 .text--white {
  color: $white;
+}
+
+.partition-test {
+  color: $white;
+  padding: 2em;
+  height: 12em;
+  background-repeat: no-repeat;
+}
+
+.partition-scale-100 {
+  background-size: 800px 800px;
+}
+
+.partition-scale-200 {
+  background-size: 1600px 1600px;
+}
+
+.partition-scale-300 {
+  background-size: 2400px 2400px;
+}
+
+.partition-scale-400 {
+  background-size: 3200px 3200px;
+}
+
+.partition-angle-0 {
+  background-position: left 0 top 10px;
+  &.partition-offset-100 {
+    background-position: left 0 top 100px;
+  }
+
+  &.partition-offset-200 {
+    background-position: left 0 top 200px;
+  }
+}
+
+.partition-angle-45 {
+  background-position: bottom 0 left 10px;
+  &.partition-offset-100 {
+    background-position: bottom 0 left 100px;
+  }
+
+  &.partition-offset-200 {
+    background-position: bottom 0 left 200px;
+  }
+}
+
+.partition-angle-90 {
+  background-position: bottom 0 left 10px;
+  &.partition-offset-100 {
+    background-position: bottom 0 left 100px;
+  }
+
+  &.partition-offset-200 {
+    background-position: bottom 0 left 200px;
+  }
+}
+
+.partition-angle-145 {
+  background-position: top 0 left 10px;
+  &.partition-offset-100 {
+    background-position: top 0 left 100px;
+  }
+
+  &.partition-offset-200 {
+    background-position: top 0 left 200px;
+  }
+}
+
+.partition-angle-180 {
+  background-position: left 0 bottom 10px;
+  &.partition-offset-100 {
+    background-position: left 0 bottom 100px;
+  }
+
+  &.partition-offset-200 {
+    background-position: left 0 bottom 200px;
+  }
+}
+
+.partition-pulse-brick.partition-angle-0 {
+  background-image: url(../assets/koro-pulse-brick-0.svg);
+}
+
+.partition-pulse-brick.partition-angle-45 {
+  background-image: url(../assets/koro-pulse-brick-45.svg);
+}
+
+.partition-pulse-brick.partition-angle-90 {
+  background-image: url(../assets/koro-pulse-brick-90.svg);
+}
+
+.partition-pulse-brick.partition-angle-145 {
+  background-image: url(../assets/koro-pulse-brick-145.svg);
+}
+
+.partition-pulse-brick.partition-angle-180 {
+  background-image: url(../assets/koro-pulse-brick-180.svg);
+}
+
+.partition-storm-metro.partition-angle-0 {
+  background-image: url(../assets/koro-storm-metro-0.svg);
+}
+
+.partition-storm-metro.partition-angle-45 {
+  background-image: url(../assets/koro-storm-metro-45.svg);
+}
+
+.partition-storm-metro.partition-angle-90 {
+  background-image: url(../assets/koro-storm-metro-90.svg);
+}
+
+.partition-storm-metro.partition-angle-145 {
+  background-image: url(../assets/koro-storm-metro-145.svg);
+}
+
+.partition-storm-metro.partition-angle-180 {
+  background-image: url(../assets/koro-storm-metro-180.svg);
 }
