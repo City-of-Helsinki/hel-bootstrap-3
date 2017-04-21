@@ -1,0 +1,24 @@
+//
+// Application specific visual customisation
+// --------------------------------------------------
+
+$theme-primary-dark:    $tram !default;
+$theme-primary-light:   $summer !default;
+
+$theme-secondary-dark:  $bus !default;
+$theme-secondary-light: $suomenlinna !default;
+
+$theme-highlight-dark:  $bus !default;
+$theme-highlight-light: $copper !default;
+
+// Non brand colors
+
+$white:         #ffffff;
+$light-gray:    #ebedf1;
+$dark-gray:     #525a65;
+$medium-gray:   #abb2bd;
+$black:         #000000;
+
+$bootstrap-sass-asset-helper: false !default;
+
+$icon-font-path: "";

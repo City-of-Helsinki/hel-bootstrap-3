@@ -372,17 +372,17 @@ $navbar-padding-horizontal:        floor(($grid-gutter-width / 2)) !default;
 $navbar-padding-vertical:          (($navbar-height - $line-height-computed) / 2) !default;
 $navbar-collapse-max-height:       340px !default;
 
-$navbar-default-color:             $brand-primary;
+$navbar-default-color:             $black;
 $navbar-default-bg:                $theme-primary-light;
 $navbar-default-border:            #fff;
 
 // Navbar links
-$navbar-default-link-color:                $theme-primary-dark;
+$navbar-default-link-color:                $black;
 $navbar-default-link-hover-color:          $theme-highlight-dark;
 $navbar-default-link-hover-bg:             transparent !default;
 $navbar-default-link-active-color:         $black;
 $navbar-default-link-active-bg:            transparent;
-$navbar-default-link-disabled-color:       lighten($theme-primary-dark,20%);
+$navbar-default-link-disabled-color:       $gray;
 $navbar-default-link-disabled-bg:          transparent !default;
 
 // Navbar brand label

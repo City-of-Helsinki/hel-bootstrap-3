@@ -1,4 +1,4 @@
-# City of Helsinki Bootstrap Theme
+# City of Helsinki Bootstrap 3 Theme
 
 :bangbang: :bangbang: :bangbang: Under development. For setup testing purposes only :bangbang: :bangbang: :bangbang:
 
@@ -13,7 +13,7 @@ This is the documentation for City of Helsinki [Bootstrap](https://getboostrap.c
 
 Install or add Bootstrap sass theme to your application
 ```
-npm install hel-bootstrap-theme
+npm install hel-bootstrap-3
 ```
 
 ## Use as it is
@@ -27,26 +27,26 @@ You can now either import the complete theme with all components
 
 Or customise the theme and exclude the Bootstrap components you are not using
 ```
-@import hel-variables;
+@import helsinki-variables;
 
-// you can override bootstrap variables by adding your own variables file
-@import app-custom-variables;
+@import application-custom-variables; // Copy and edit this file to customise your app theme
 
-// you can copy the original _bootstrap.scss and comment out the components you will not be using
-@import bootstrap-custom
+@import bootstrap-custom-variables;
+
+@import bootstrap;
 ```
 
 ## Files
 
 ``
-_hel-variables.scss
+_helsinki-variables.scss
 ``
-: Helsinki UI and Brand specific variables
+: Helsinki UI and Brand specific variables. Do not use these directly in your app, map them to app specific variables instead.
 
 ``
-_app-variables.scss
+_application-variables.scss
 ``
-: App specific setup. Modify this to customize your app.
+: App specific setup. Copy and modify to customise your app's look using Helsinki brand or your own brand.
 
 ``
 _custom-bootstrap-variables.scss
