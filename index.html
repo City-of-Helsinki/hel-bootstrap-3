@@ -85,6 +85,15 @@
                         </a>
                     </li>
                 
+                <li>
+                    <a href="https://github.com/terotic/hel-bootstrap-3">
+                        
+                            <i class="fa fa-github"></i>
+                        
+                        GitHub
+                    </a>
+                </li>
+                
             </ul>
         </div>
     </div>
@@ -103,7 +112,7 @@
         
             <li><a href="#use-as-it-is">Use as it is</a></li>
         
-            <li><a href="#use-customised">Use customised</a></li>
+            <li><a href="#use-as-customised">Use as customised</a></li>
         
             <li><a href="#files">Files</a></li>
         
@@ -128,7 +137,7 @@
 </ul>
 <h2 id="install">Install</h2>
 <p>Install or add Bootstrap sass theme to your application</p>
-<pre><code>npm install hel-bootstrap-theme
+<pre><code>npm install hel-bootstrap-3
 </code></pre>
 
 <h2 id="use-as-it-is">Use as it is</h2>
@@ -136,22 +145,22 @@
 <pre><code>@import hel-bootstrap-theme;
 </code></pre>
 
-<h2 id="use-customised">Use customised</h2>
+<h2 id="use-as-customised">Use as customised</h2>
 <p>Or customise the theme and exclude the Bootstrap components you are not using</p>
-<pre><code>@import hel-variables;
+<pre><code>@import helsinki-variables;
 
-// you can override bootstrap variables by adding your own variables file
-@import app-custom-variables;
+@import application-custom-variables; // Copy and edit this file to customise your app theme
 
-// you can copy the original _bootstrap.scss and comment out the components you will not be using
-@import bootstrap-custom
+@import bootstrap-custom-variables;
+
+@import bootstrap;
 </code></pre>
 
 <h2 id="files">Files</h2>
-<p><code>_hel-variables.scss</code>
-: Helsinki UI and Brand specific variables</p>
-<p><code>_app-variables.scss</code>
-: App specific setup. Modify this to customize your app.</p>
+<p><code>_helsinki-variables.scss</code>
+: Helsinki UI and Brand specific variables. Do not use these directly in your app, map them to app specific variables instead.</p>
+<p><code>_application-variables.scss</code>
+: App specific setup. Copy and modify to customise your app's look using Helsinki brand or your own brand.</p>
 <p><code>_custom-bootstrap-variables.scss</code>
 : Bootstrap variables with theme modifications</p>
 <h2 id="bootstrap-components">Bootstrap components</h2>
