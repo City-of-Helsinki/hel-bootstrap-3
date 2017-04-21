@@ -32,7 +32,7 @@ $body-bg:               #fff !default;
 $text-color:            $gray-dark !default;
 
 //** Global textual link color.
-$link-color:            $bus;
+$link-color:            $theme-primary-dark;
 //** Link hover color set via `darken()` function.
 $link-hover-color:      $theme-primary-dark;
 //** Link hover decoration.
@@ -43,10 +43,10 @@ $link-hover-decoration: underline !default;
 //
 //## Font, line-height, and color for body text, headings, and more.
 
-$font-family-sans-serif:  "HelsinkiGrotesk", Arial, -apple-system, BlinkMacSystemFont,
+$font-family-sans-serif:  -apple-system, BlinkMacSystemFont,
     "Segoe UI", "Roboto", "Oxygen", "Ubuntu", "Cantarell",
     "Fira Sans", "Droid Sans", "Helvetica Neue",
-    sans-serif;
+    sans-serif !default;
 $font-family-serif:       Georgia, "Times New Roman", Times, serif !default;
 //** Default monospace fonts for `<code>`, `<kbd>`, and `<pre>`.
 $font-family-monospace:   Menlo, Monaco, Consolas, "Courier New", monospace !default;
@@ -152,13 +152,13 @@ $table-border-color:            #ddd !default;
 
 $btn-font-weight:                500;
 
-$btn-default-color:              $black;
+$btn-default-color:              $theme-primary-dark;
 $btn-default-bg:                 #fff;
-$btn-default-border:             $black;
+$btn-default-border:             $theme-primary-dark;
 
 $btn-primary-color:              #fff !default;
-$btn-primary-bg:                 $black;
-$btn-primary-border:             $black;
+$btn-primary-bg:                 $theme-primary-dark;
+$btn-primary-border:             $theme-primary-dark;
 
 $btn-success-color:              $brand-success;
 $btn-success-bg:                 #fff;
@@ -504,20 +504,20 @@ $jumbotron-heading-font-size:    ceil(($font-size-base * 4.5)) !default;
 //
 //## Define colors for form feedback states and, by default, alerts.
 
-$state-success-text:             $tram;
+$state-success-text:             $black;
 $state-success-bg:               $copper;
 $state-success-border:           transparent;
 
-$state-info-text:                $bus;
+$state-info-text:                $black;
 $state-info-bg:                  $fog;
 $state-info-border:              transparent;
 
-$state-warning-text:             $metro;
-$state-warning-bg:               $engel;
+$state-warning-text:             $black;
+$state-warning-bg:               $summer;
 $state-warning-border:           transparent;
 
-$state-danger-text:              $brick;
-$state-danger-bg:                $suomenlinna;
+$state-danger-text:              $white;
+$state-danger-bg:                $brick;
 $state-danger-border:            transparent;
 
 

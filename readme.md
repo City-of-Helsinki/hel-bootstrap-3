@@ -29,9 +29,9 @@ Or customise the theme and exclude the Bootstrap components you are not using
 ```
 @import helsinki-variables;
 
-@import application-custom-variables; // Copy and edit this file to customise your app theme
+@import application-variables; // Copy and edit this file to customise your app theme
 
-@import bootstrap-custom-variables;
+@import custom-bootstrap-variables;
 
 @import bootstrap;
 ```
