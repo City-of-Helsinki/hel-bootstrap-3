@@ -17,7 +17,7 @@
       <div class="panel-heading bg--tram" src="..."></div>
       <div class="panel-body panel-body--">
         <h4 class="card-title">Tram</h4>
-        <p class="card-text text-muted">#009a4a</p>
+        <p class="card-text text-muted">#009246</p>
       </div>
     </div>
     </div>
@@ -35,7 +35,7 @@
       <div class="panel-heading bg--summer" src="..."></div>
       <div class="panel-body panel-body--">
         <h4 class="card-title">Summer</h4>
-        <p class="card-text text-muted">#fad419</p>
+        <p class="card-text text-muted">#ffc61e</p>
       </div>
     </div>
   </div>
@@ -46,7 +46,7 @@
         <div class="panel-heading bg--fog" src="..."></div>
         <div class="panel-body panel-body--">
           <h4 class="card-title">Fog</h4>
-          <p class="card-text text-muted">#a4c7ea</p>
+          <p class="card-text text-muted">#9fc9eb</p>
         </div>
       </div>
     </div>
@@ -55,7 +55,7 @@
         <div class="panel-heading bg--copper" src="..."></div>
         <div class="panel-body panel-body--">
           <h4 class="card-title">Copper</h4>
-          <p class="card-text text-muted">#0bd9ae</p>
+          <p class="card-text text-muted">#00d7a7</p>
         </div>
       </div>
     </div>
@@ -64,7 +64,7 @@
       <div class="panel-heading bg--suomenlinna" src="..."></div>
       <div class="panel-body panel-body--">
         <h4 class="card-title">Suomenlinna</h4>
-        <p class="card-text text-muted">#f39ec3</p>
+        <p class="card-text text-muted">#f5a3c7</p>
       </div>
     </div>
     </div>
