@@ -104,7 +104,7 @@
     <ul class="nav bs-sidenav">
       
     
-        <li class="main active"><a href="#city-of-helsinki-bootstrap-theme">City of Helsinki Bootstrap Theme</a></li>
+        <li class="main active"><a href="#city-of-helsinki-bootstrap-3-theme">City of Helsinki Bootstrap 3 Theme</a></li>
         
             <li><a href="#contents">Contents</a></li>
         
@@ -126,10 +126,9 @@
 </div></div>
                 <div class="col-md-9" role="main">
 
-<h1 id="city-of-helsinki-bootstrap-theme">City of Helsinki Bootstrap Theme</h1>
-<table><tr><td><h5>!!!!!!</h5> This theme is under development. Use for setup testing purposes only.<h5>!!!!!!</h5></td></tr></table>
-
-<p>This is the documentation for City of Helsinki <a href="https://getboostrap.com">Bootstrap</a> theme. We are currently testing the best ways to deliver theming documentation and files. Source <a href="https://github.com/terotic/hel-bootstrap-3">here</a>.</p>
+<h1 id="city-of-helsinki-bootstrap-3-theme">City of Helsinki Bootstrap 3 Theme</h1>
+<p>:bangbang: :bangbang: :bangbang: Under development. For setup testing purposes only :bangbang: :bangbang: :bangbang:</p>
+<p>This is the documentation for City of Helsinki <a href="https://getboostrap.com">Bootstrap</a> theme. We are currently testing the best ways to deliver theming documentation and files.</p>
 <h2 id="contents">Contents</h2>
 <ul>
 <li>Documentation - Made with <a href="http://www.mkdocs.org">Mkdocs</a></li>
@@ -140,31 +139,38 @@
 <pre><code>npm install hel-bootstrap-3
 </code></pre>
 
+<p>(Not yet published install from Github repo instead)</p>
 <h2 id="use-as-it-is">Use as it is</h2>
-<p>You can now either import the complete theme with all components</p>
+<p>You can now either import the default theme with all components</p>
 <pre><code>@import hel-bootstrap-theme;
 </code></pre>
 
 <h2 id="use-as-customised">Use as customised</h2>
-<p>Or customise the theme and exclude the Bootstrap components you are not using</p>
+<p>Or customise the theme for your application and exclude the Bootstrap components you are not using</p>
 <pre><code>@import helsinki-variables;
 
 @import application-variables; // Copy and edit this file to customise your app theme
 
-@import custom-bootstrap-variables;
+@import theme-bootstrap-variables;
 
 @import bootstrap;
+
+@import theme-custom-styles;
 </code></pre>
 
 <h2 id="files">Files</h2>
 <p><code>_helsinki-variables.scss</code>
-: Helsinki UI and Brand specific variables. Do not use these directly in your app, map them to app specific variables instead.</p>
+: Helsinki UI and Brand specific variables. Do not use these directly in your app styles!</p>
 <p><code>_application-variables.scss</code>
-: App specific setup. Copy and modify to customise your app's look using Helsinki brand or your own brand.</p>
-<p><code>_custom-bootstrap-variables.scss</code>
+: App specific setup. Copy and modify to customise your app's look using Helsinki brand variables or your own brand.</p>
+<p><code>_theme-bootstrap-variables.scss</code>
 : Bootstrap variables with theme modifications</p>
+<p><code>_theme-custom-styles.scss</code>
+: Bootstrap overrides that can not be achieved only through variables</p>
 <h2 id="bootstrap-components">Bootstrap components</h2>
+<p>In your application make use of standard Bootstrap 3 components as much as possible.</p>
 <p>More information about Bootstrap-sass <a href="https://github.com/twbs/bootstrap-sass">here</a> and the use of Bootstrap components <a href="http://getbootstrap.com/components/">here</a></p>
+<p>Compatible with <a href="https://react-bootstrap.github.io">React-Bootstrap</a> components.</p>
 <h2 id="develop">Develop</h2>
 <ul>
 <li>Clone this repository</li>

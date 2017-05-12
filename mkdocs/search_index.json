@@ -2,13 +2,13 @@
     "docs": [
         {
             "location": "/",
-            "text": "City of Helsinki Bootstrap Theme\n\n\n!!!!!!\n This theme is under development. Use for setup testing purposes only.\n!!!!!!\n\n\n\nThis is the documentation for City of Helsinki \nBootstrap\n theme. We are currently testing the best ways to deliver theming documentation and files. Source \nhere\n.\n\n\nContents\n\n\n\n\nDocumentation - Made with \nMkdocs\n\n\nBootstrap sass theme - Available as npm package\n\n\n\n\nInstall\n\n\nInstall or add Bootstrap sass theme to your application\n\n\nnpm install hel-bootstrap-3\n\n\n\n\nUse as it is\n\n\nYou can now either import the complete theme with all components\n\n\n@import hel-bootstrap-theme;\n\n\n\n\nUse as customised\n\n\nOr customise the theme and exclude the Bootstrap components you are not using\n\n\n@import helsinki-variables;\n\n@import application-variables; // Copy and edit this file to customise your app theme\n\n@import custom-bootstrap-variables;\n\n@import bootstrap;\n\n\n\n\nFiles\n\n\n_helsinki-variables.scss\n\n: Helsinki UI and Brand specific variables. Do not use these directly in your app, map them to app specific variables instead.\n\n\n_application-variables.scss\n\n: App specific setup. Copy and modify to customise your app's look using Helsinki brand or your own brand.\n\n\n_custom-bootstrap-variables.scss\n\n: Bootstrap variables with theme modifications\n\n\nBootstrap components\n\n\nMore information about Bootstrap-sass \nhere\n and the use of Bootstrap components \nhere\n\n\nDevelop\n\n\n\n\nClone this repository\n\n\npip install requirements.txt\n\n\nnpm install\n\n\ngrunt dev",
+            "text": "City of Helsinki Bootstrap 3 Theme\n\n\n:bangbang: :bangbang: :bangbang: Under development. For setup testing purposes only :bangbang: :bangbang: :bangbang:\n\n\nThis is the documentation for City of Helsinki \nBootstrap\n theme. We are currently testing the best ways to deliver theming documentation and files.\n\n\nContents\n\n\n\n\nDocumentation - Made with \nMkdocs\n\n\nBootstrap sass theme - Available as npm package\n\n\n\n\nInstall\n\n\nInstall or add Bootstrap sass theme to your application\n\n\nnpm install hel-bootstrap-3\n\n\n\n\n(Not yet published install from Github repo instead)\n\n\nUse as it is\n\n\nYou can now either import the default theme with all components\n\n\n@import hel-bootstrap-theme;\n\n\n\n\nUse as customised\n\n\nOr customise the theme for your application and exclude the Bootstrap components you are not using\n\n\n@import helsinki-variables;\n\n@import application-variables; // Copy and edit this file to customise your app theme\n\n@import theme-bootstrap-variables;\n\n@import bootstrap;\n\n@import theme-custom-styles;\n\n\n\n\nFiles\n\n\n_helsinki-variables.scss\n\n: Helsinki UI and Brand specific variables. Do not use these directly in your app styles!\n\n\n_application-variables.scss\n\n: App specific setup. Copy and modify to customise your app's look using Helsinki brand variables or your own brand.\n\n\n_theme-bootstrap-variables.scss\n\n: Bootstrap variables with theme modifications\n\n\n_theme-custom-styles.scss\n\n: Bootstrap overrides that can not be achieved only through variables\n\n\nBootstrap components\n\n\nIn your application make use of standard Bootstrap 3 components as much as possible.\n\n\nMore information about Bootstrap-sass \nhere\n and the use of Bootstrap components \nhere\n\n\nCompatible with \nReact-Bootstrap\n components.\n\n\nDevelop\n\n\n\n\nClone this repository\n\n\npip install requirements.txt\n\n\nnpm install\n\n\ngrunt dev",
             "title": "Home"
         },
         {
-            "location": "/#city-of-helsinki-bootstrap-theme",
-            "text": "",
-            "title": "City of Helsinki Bootstrap Theme"
+            "location": "/#city-of-helsinki-bootstrap-3-theme",
+            "text": ":bangbang: :bangbang: :bangbang: Under development. For setup testing purposes only :bangbang: :bangbang: :bangbang:  This is the documentation for City of Helsinki  Bootstrap  theme. We are currently testing the best ways to deliver theming documentation and files.",
+            "title": "City of Helsinki Bootstrap 3 Theme"
         },
         {
             "location": "/#contents",
@@ -17,27 +17,27 @@
         },
         {
             "location": "/#install",
-            "text": "Install or add Bootstrap sass theme to your application  npm install hel-bootstrap-3",
+            "text": "Install or add Bootstrap sass theme to your application  npm install hel-bootstrap-3  (Not yet published install from Github repo instead)",
             "title": "Install"
         },
         {
             "location": "/#use-as-it-is",
-            "text": "You can now either import the complete theme with all components  @import hel-bootstrap-theme;",
+            "text": "You can now either import the default theme with all components  @import hel-bootstrap-theme;",
             "title": "Use as it is"
         },
         {
             "location": "/#use-as-customised",
-            "text": "Or customise the theme and exclude the Bootstrap components you are not using  @import helsinki-variables;\n\n@import application-variables; // Copy and edit this file to customise your app theme\n\n@import custom-bootstrap-variables;\n\n@import bootstrap;",
+            "text": "Or customise the theme for your application and exclude the Bootstrap components you are not using  @import helsinki-variables;\n\n@import application-variables; // Copy and edit this file to customise your app theme\n\n@import theme-bootstrap-variables;\n\n@import bootstrap;\n\n@import theme-custom-styles;",
             "title": "Use as customised"
         },
         {
             "location": "/#files",
-            "text": "_helsinki-variables.scss \n: Helsinki UI and Brand specific variables. Do not use these directly in your app, map them to app specific variables instead.  _application-variables.scss \n: App specific setup. Copy and modify to customise your app's look using Helsinki brand or your own brand.  _custom-bootstrap-variables.scss \n: Bootstrap variables with theme modifications",
+            "text": "_helsinki-variables.scss \n: Helsinki UI and Brand specific variables. Do not use these directly in your app styles!  _application-variables.scss \n: App specific setup. Copy and modify to customise your app's look using Helsinki brand variables or your own brand.  _theme-bootstrap-variables.scss \n: Bootstrap variables with theme modifications  _theme-custom-styles.scss \n: Bootstrap overrides that can not be achieved only through variables",
             "title": "Files"
         },
         {
             "location": "/#bootstrap-components",
-            "text": "More information about Bootstrap-sass  here  and the use of Bootstrap components  here",
+            "text": "In your application make use of standard Bootstrap 3 components as much as possible.  More information about Bootstrap-sass  here  and the use of Bootstrap components  here  Compatible with  React-Bootstrap  components.",
             "title": "Bootstrap components"
         },
         {
