@@ -1,5 +1,5 @@
-site_name: Helsinki Bootstrap components
+site_name: Helsinki Bootstrap 3 components
 theme: null
 theme_dir: docs-theme
-repo_url: https://github.com/terotic/hel-bootstrap-3
+repo_url: https://github.com/City-of-Helsinki/hel-bootstrap-3
 dev_addr: 127.0.0.1:8080

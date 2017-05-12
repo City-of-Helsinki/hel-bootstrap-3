@@ -1,8 +1,11 @@
 {
   "name": "hel-bootstrap-3",
-  "version": "0.1.0",
+  "version": "1.0.0-beta.0",
   "description": "City of Helsinki themed Boostrap 3 SASS library",
-  "repository": "terotic/hel-bootstrap-3",
+  "repository": {
+    "type" : "git",
+    "url" : "https://github.com/City-of-Helsinki/hel-bootstrap-3.git"
+  },
   "directories": {
     "doc": "docs"
   },
@@ -32,12 +35,8 @@
   "peerDependencies": {
     "bootstrap-sass": "^3.3.7"
   },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/terotic/hel-bootstrap-3.git"
-  },
   "bugs": {
-    "url": "https://github.com/terotic/hel-bootstrap-3/issues"
+    "url": "https://github.com/City-of-Helsinki/issues"
   },
-  "homepage": "https://github.com/terotic/hel-bootstrap-3"
+  "homepage": "https://github.com/City-of-Helsinki/hel-bootstrap-3"
 }
