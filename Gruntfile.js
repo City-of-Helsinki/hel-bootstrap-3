@@ -11,10 +11,10 @@ module.exports = function (grunt) {
     sass: {
       dev: {
         options: {
-          includePaths: ['src', 'node_modules/bootstrap-sass/assets/stylesheets']
+          includePaths: ['src/sass', 'node_modules/bootstrap-sass/assets/stylesheets']
         },
         files: {
-          'docs-theme/css/hel-bootstrap.css': 'src/sass/hel-bootstrap-theme.scss'
+          'docs-theme/css/base.css': 'docs-theme/sass/base.scss'
         }
       }
     },

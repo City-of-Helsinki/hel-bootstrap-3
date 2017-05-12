@@ -1,8 +1,8 @@
-@import 'helsinki-variables';           // Helsinki brand variables
-@import 'application-variables';        // Theme setup for application
-@import 'theme-bootstrap-variables';   // modified Bootstrap variables file
-@import 'bootstrap';                    // load Bootstrap
-@import 'theme-custom-styles';                // load theme Bootstrap overrides
-@import 'documentation-styles';         // load theme Documentation styles
+// Variables
+@import 'helsinki-variables';          // Helsinki brand variables
+@import 'application-variables';       // Theme customisation for application
+@import 'theme-bootstrap-variables';   // Modified Bootstrap variables file
 
-
+// Styles
+@import 'bootstrap';                   // Load Bootstrap
+@import 'theme-custom-styles';         // Load theme Bootstrap overrides
