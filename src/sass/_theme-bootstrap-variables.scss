@@ -372,15 +372,15 @@ $navbar-padding-horizontal:        floor(($grid-gutter-width / 2)) !default;
 $navbar-padding-vertical:          (($navbar-height - $line-height-computed) / 2) !default;
 $navbar-collapse-max-height:       340px !default;
 
-$navbar-default-color:             $black;
-$navbar-default-bg:                $theme-primary-light;
-$navbar-default-border:            #fff;
+$navbar-default-color:             $theme-primary-dark;
+$navbar-default-bg:                $white;
+$navbar-default-border:            transparent;
 
 // Navbar links
-$navbar-default-link-color:                $black;
+$navbar-default-link-color:                $theme-primary-dark;
 $navbar-default-link-hover-color:          $theme-highlight-dark;
 $navbar-default-link-hover-bg:             transparent !default;
-$navbar-default-link-active-color:         $black;
+$navbar-default-link-active-color:         $theme-primary-dark;
 $navbar-default-link-active-bg:            transparent;
 $navbar-default-link-disabled-color:       $gray;
 $navbar-default-link-disabled-bg:          transparent !default;
@@ -392,8 +392,8 @@ $navbar-default-brand-hover-bg:            transparent !default;
 
 // Navbar toggle
 $navbar-default-toggle-hover-bg:           transparent;
-$navbar-default-toggle-icon-bar-bg:        #888 !default;
-$navbar-default-toggle-border-color:       #ddd !default;
+$navbar-default-toggle-icon-bar-bg:        $theme-primary-dark;
+$navbar-default-toggle-border-color:       transparent;
 
 
 //=== Inverted navbar
@@ -406,7 +406,7 @@ $navbar-inverse-border:                     transparent;
 $navbar-inverse-link-color:                 $white;
 $navbar-inverse-link-hover-color:           $theme-highlight-light;
 $navbar-inverse-link-hover-bg:              transparent !default;
-$navbar-inverse-link-active-color:          $navbar-inverse-link-hover-color !default;
+$navbar-inverse-link-active-color:          $white;
 $navbar-inverse-link-active-bg:             transparent;
 $navbar-inverse-link-disabled-color:        $gray-light;
 $navbar-inverse-link-disabled-bg:           transparent !default;
@@ -417,8 +417,8 @@ $navbar-inverse-brand-hover-color:          $theme-highlight-light;
 $navbar-inverse-brand-hover-bg:             transparent !default;
 
 // Inverted navbar toggle
-$navbar-inverse-toggle-hover-bg:            $theme-highlight-dark;
-$navbar-inverse-toggle-icon-bar-bg:         #fff !default;
+$navbar-inverse-toggle-hover-bg:            transparent;
+$navbar-inverse-toggle-icon-bar-bg:         $white;
 $navbar-inverse-toggle-border-color:        transparent;
 
 
@@ -768,7 +768,7 @@ $thumbnail-caption-padding:   9px !default;
 //
 //##
 
-$well-bg:                     $silver;
+$well-bg:                     $gray-lighter;
 $well-border:                 transparent;
 
 

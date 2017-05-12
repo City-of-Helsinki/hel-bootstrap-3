@@ -1,0 +1,19 @@
+.navbar-default {
+  border-bottom: 1px solid $theme-primary-dark;
+
+  .navbar-nav > .active > a {
+    border-bottom: solid 3px $theme-primary-dark;
+  }
+}
+
+.navbar-inverse {
+
+  .navbar-nav > .active > a {
+    border-bottom: solid 3px $theme-highlight-light;
+  }
+}
+
+.navbar-brand {
+  font-weight: bold;
+  font-size: $font-size-base;
+}
