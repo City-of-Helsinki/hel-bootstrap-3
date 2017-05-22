@@ -867,14 +867,17 @@
               <div class="form-group has-warning">
                 <label class="control-label" for="inputWarning">Input warning</label>
                 <input type="text" class="form-control" id="inputWarning">
+                <span class="help-block">Warning help text</span>
               </div>
               <div class="form-group has-error">
                 <label class="control-label" for="inputError">Input error</label>
                 <input type="text" class="form-control" id="inputError">
+                <span class="help-block">Error help text</span>
               </div>
               <div class="form-group has-success">
                 <label class="control-label" for="inputSuccess">Input success</label>
                 <input type="text" class="form-control" id="inputSuccess">
+                <span class="help-block">Success help text</span>
               </div>
             </div>
           </div>
@@ -1604,7 +1607,7 @@
     </div>
     <div class="col-xs-12 col-lg-8">
       <div class="bs-component">
-        Phrase » <span class="text-hide"><img src="/img/logo.svg" width="150px" /></span> « with some text hidden
+        Phrase » <span class="text-hide"><img src="../assets/helsinki-logo-black.svg" width="150px" /></span> « with some text hidden
       </div>
     </div>
     <div class="col-xs-12 col-lg-4">
