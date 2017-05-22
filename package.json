@@ -5,8 +5,8 @@
   "style": "src/sass/_hel-bootstrap-theme.scss",
   "sass": "src/sass/_hel-bootstrap-theme.scss",
   "repository": {
-    "type" : "git",
-    "url" : "https://github.com/City-of-Helsinki/hel-bootstrap-3.git"
+    "type": "git",
+    "url": "https://github.com/City-of-Helsinki/hel-bootstrap-3.git"
   },
   "directories": {
     "doc": "docs"
@@ -17,14 +17,15 @@
   },
   "keywords": [],
   "author": {
-    "name" : "Tero Tikkanen",
-    "email" : "tero.tikkanen@hel.fi",
-    "url" : "http://dev.hel.fi/"
-    },
+    "name": "Tero Tikkanen",
+    "email": "tero.tikkanen@hel.fi",
+    "url": "http://dev.hel.fi/"
+  },
   "license": "MIT",
   "devDependencies": {
     "grunt": "^1.0.1",
     "grunt-concurrent": "^2.3.1",
+    "grunt-contrib-copy": "^1.0.0",
     "grunt-contrib-watch": "^1.0.0",
     "grunt-sass": "^2.0.0",
     "grunt-shell": "^2.1.0",

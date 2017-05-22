@@ -29,6 +29,18 @@ module.exports = function (grunt) {
           logConcurrentOutput: true
         }
       }
+    },
+    copy: {
+      dev: {
+        files: [
+          {
+            expand: true,
+            cwd: 'node_modules/bootstrap-sass/assets/fonts',
+            src: '**',
+            dest: 'docs-theme/fonts/'
+          },
+        ]
+      }
     }
   });
 
@@ -36,7 +48,8 @@ module.exports = function (grunt) {
   grunt.loadNpmTasks('grunt-contrib-watch');
   grunt.loadNpmTasks('grunt-shell');
   grunt.loadNpmTasks('grunt-concurrent');
+  grunt.loadNpmTasks('grunt-contrib-copy');
 
   grunt.registerTask('default', ['sass']);
-  grunt.registerTask('dev', ['concurrent:devServer']);
+  grunt.registerTask('dev', ['copy','concurrent:devServer']);
 }
