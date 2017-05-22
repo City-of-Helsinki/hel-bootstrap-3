@@ -858,7 +858,7 @@
             <div class="col-xs-12">
               <div class="form-group">
                 <label class="control-label" for="focusedInput">Focused input</label>
-                <input class="form-control" id="focusedInput" autofocus type="text" value="This is focused...">
+                <input class="form-control" id="focusedInput" type="text" value="Click to focus on this...">
               </div>
               <div class="form-group">
                 <label class="control-label" for="disabledInput">Disabled input</label>
