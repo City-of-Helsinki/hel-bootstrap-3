@@ -27,6 +27,10 @@
   color: $gray;
 }
 
+.form-control {
+  border-bottom-width: 2px;
+}
+
 .has-warning {
   .help-block,
   .control-label,
