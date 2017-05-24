@@ -70,38 +70,6 @@
       <p>The most important elements that can need this colors already exist on the styleguide, like <b>buttons</b>, <b>labels</b>, <b>progress bars</b> and <b>panels</b>.</p>
     </div>
   </div>
-  <div class="row">
-    <div class="col-xs-12">
-      <h3 class="bs-component-title">Light colors</h3>
-    </div>
-    <div class="col-xs-12 col-lg-8 text-center text-white">
-      <div class="bs-component">
-        <div class="bg-primary-light">
-          <h4 class=" text-white">Background primary</h4>
-        </div>
-        <div class="bg-success-light">
-          <h4 class="text-white">Background success</h4>
-        </div>
-        <div class="bg-info-light">
-          <h4>Background info</h4>
-        </div>
-        <div class="bg-warning-light">
-          <h4 class="text-white">Background warning</h4>
-        </div>
-        <div class="bg-danger-light">
-          <h4 class="text-white">Background danger</h4>
-        </div>
-      </div>
-    </div>
-    <div class="col-xs-12 col-lg-4">
-      <h4 class="doc-info-title">How to use</h4>
-      <p>Just add the class <code>bg-XXX-light</code> to the element.</p>
-      <p>To avoid conflict with some pre existent <code>background-color</code> just add another <code>div</code> with the class.</p>
-      <h4>When to use</h4>
-      <p>Use this colors to <b>highlight</b> some information, like words or phases, etc.</p>
-      <p>The most important elements that can need this colors already exist on the styleguide, like <b>rows in tables</b>, <b>alerts</b>, <b>disabled buttons</b> and <b>list itens</b>.</p>
-    </div>
-  </div>
 </article>
 <!-- =================================================================== -->
 <!-- Grid ============================================================ -->
@@ -296,11 +264,11 @@
     <div class="col-xs-12 col-lg-8">
       <div class="bs-component">
         <address>
-              <strong>Company GmbH</strong><br>
-              strret nr<br>
-              ZIPCODE Berlin<br>
+              <strong>City of Helsinki</strong><br>
+              PL 1<br>
+              00099 HELSINGIN KAUPUNKI<br>
               <abbr title="Phone">P:</abbr>
-              <a href="tel:#"> 0800 98089ut</a>
+              <a href="tel:09 310 1691"> 09 310 1691</a>
             </address>
         <address>
               <strong>Full Name</strong><br>

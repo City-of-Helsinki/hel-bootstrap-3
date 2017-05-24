@@ -5886,6 +5886,9 @@ button.close {
   font-size: 0.9em;
   color: #525a65; }
 
+.form-control {
+  border-bottom-width: 2px; }
+
 .has-warning .help-block,
 .has-warning .control-label,
 .has-warning .radio,
