@@ -3242,7 +3242,7 @@ tbody.collapse.in {
 
 .dropdown-menu > li > a:hover, .dropdown-menu > li > a:focus {
   text-decoration: none;
-  color: black;
+  color: #0d0d0d;
   background-color: #ffc61e; }
 
 .dropdown-menu > .active > a, .dropdown-menu > .active > a:hover, .dropdown-menu > .active > a:focus {
@@ -5970,51 +5970,83 @@ input[type="color"]:focus,
 
 .bg--silver {
   background-color: #dedfe1 !important; }
+  .bg--silver:hover {
+    background-color: #f1f1f2 !important; }
 
 .bg--gold {
   background-color: #c2a251 !important; }
+  .bg--gold:hover {
+    background-color: #cbb06b !important; }
 
 .bg--black {
   background-color: #000000 !important; }
+  .bg--black:hover {
+    background-color: #121212 !important; }
 
 .bg--copper {
   background-color: #00d7a7 !important; }
+  .bg--copper:hover {
+    background-color: #00fbc3 !important; }
 
 .bg--bus {
   background-color: #0000bf !important; }
+  .bg--bus:hover {
+    background-color: #0000e3 !important; }
 
 .bg--coat {
   background-color: #0072c6 !important; }
+  .bg--coat:hover {
+    background-color: #0087ea !important; }
 
 .bg--fog {
   background-color: #9fc9eb !important; }
+  .bg--fog:hover {
+    background-color: #bddaf1 !important; }
 
 .bg--metro {
   background-color: #fd4f00 !important; }
+  .bg--metro:hover {
+    background-color: #ff6722 !important; }
 
 .bg--brick {
   background-color: #bd2719 !important; }
+  .bg--brick:hover {
+    background-color: #dd2e1d !important; }
 
 .bg--light-gray {
   background-color: #ebedf1 !important; }
+  .bg--light-gray:hover {
+    background-color: #f4f5f7 !important; }
 
 .bg--suomenlinna {
   background-color: #f5a3c7 !important; }
+  .bg--suomenlinna:hover {
+    background-color: #f9c3db !important; }
 
 .bg--engel {
   background-color: #ffe977 !important; }
+  .bg--engel:hover {
+    background-color: #ffef9b !important; }
 
 .bg--tram {
   background-color: #009246 !important; }
+  .bg--tram:hover {
+    background-color: #00b657 !important; }
 
 .bg--summer {
   background-color: #ffc61e !important; }
+  .bg--summer:hover {
+    background-color: #ffcf42 !important; }
 
 .bg--dark-gray {
   background-color: #525a65 !important; }
+  .bg--dark-gray:hover {
+    background-color: #626c79 !important; }
 
 .bg--medium-gray {
   background-color: #abb2bd !important; }
+  .bg--medium-gray:hover {
+    background-color: #bfc4cd !important; }
 
 .bg--white {
   background-color: #ffffff !important; }
