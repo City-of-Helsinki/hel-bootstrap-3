@@ -16,8 +16,8 @@
         {%- endblock %}
 
         {%- block styles %}
-        <link href="{{ base_url }}/css/base.css" rel="stylesheet">
         <link href="https://netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap-glyphicons.css" rel="stylesheet">
+        <link href="{{ base_url }}/css/base.css" rel="stylesheet">
         {%- for path in extra_css %}
         <link href="{{ path }}" rel="stylesheet">
         {%- endfor %}
