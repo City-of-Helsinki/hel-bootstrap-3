@@ -1,3 +1,40 @@
+// Button overrides
+
+.btn-default {
+  &:hover {
+    border-color: lighten($btn-default-border, 7%);
+    color: lighten($btn-default-color, 7%);
+  }
+}
+
+.btn-success {
+  &:hover {
+    border-color: lighten($btn-success-border, 7%);
+    color: lighten($btn-success-color, 7%);
+  }
+}
+
+.btn-info {
+  &:hover {
+    border-color: lighten($btn-info-border, 7%);
+    color: lighten($btn-info-color, 7%);
+  }
+}
+
+.btn-warning {
+  &:hover {
+    border-color: lighten($btn-warning-border, 7%);
+    color: lighten($btn-warning-color, 7%);
+  }
+}
+
+.btn-danger {
+  &:hover {
+    border-color: lighten($btn-danger-border, 7%);
+    color: lighten($btn-danger-color, 7%);
+  }
+}
+
 // Navbar overrides
 
 .navbar-default {
