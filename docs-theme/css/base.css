@@ -5948,8 +5948,10 @@ button.close {
   .navbar-default .navbar-nav > .active > a {
     border-bottom: solid 3px #0072c6; }
 
-.navbar-inverse .navbar-nav > .active > a {
-  border-bottom: solid 3px #00d7a7; }
+.navbar-inverse {
+  border: 0; }
+  .navbar-inverse .navbar-nav > .active > a {
+    border-bottom: solid 3px #00d7a7; }
 
 .navbar-brand {
   font-weight: bold;
