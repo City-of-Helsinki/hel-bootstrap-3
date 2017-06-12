@@ -121,19 +121,54 @@
 
 // Navbar overrides
 
-.navbar-default {
-  border-bottom: 1px solid $theme-primary-dark;
-
-  .navbar-nav > .active > a {
+// Styles when navbar is not collapsed
+@media (min-width: $screen-md-min) {
+  .navbar-default .navbar-nav > .active > a {
     border-bottom: solid 3px $theme-primary-dark;
   }
+
+  .navbar-inverse .navbar-nav > .active > a {
+    border-bottom: solid 3px $theme-highlight-light;
+  }
+}
+
+// Styles when navbar is collapsed
+@media (max-width: $screen-md-min) {
+  .navbar-collapse .nav {
+    border-bottom: 1px solid $gray-lighter;
+  }
+
+  .navbar-inverse .navbar-collapse .nav {
+    border-bottom: 1px solid lighten($theme-primary-dark, 5%);
+  }
+
+  .navbar-nav > .active > a {
+    font-weight: bold;
+
+    &:after {
+      content: "\000A0 \02022";
+    }
+  }
+}
+
+.navbar-collapse {
+  box-shadow: none;
+  border-top-width: 2px;
 }
 
 .navbar-inverse {
   border: 0;
 
-  .navbar-nav > .active > a {
-    border-bottom: solid 3px $theme-highlight-light;
+  .navbar-collapse {
+    border-top-color: lighten($theme-primary-dark, 5%);
+  }
+}
+
+.navbar-default {
+  border-bottom: 1px solid $theme-primary-dark;
+
+  .navbar-collapse {
+    border-top-color: $gray-lighter;
   }
 }
 
