@@ -7,6 +7,13 @@
   }
 }
 
+.btn-primary {
+  &:hover {
+    border-color: lighten($btn-primary-border, 7%);
+    background-color: lighten($btn-primary-bg, 7%);
+  }
+}
+
 .btn-success {
   &:hover {
     border-color: lighten($btn-success-border, 7%);
@@ -32,6 +39,83 @@
   &:hover {
     border-color: lighten($btn-danger-border, 7%);
     color: lighten($btn-danger-color, 7%);
+  }
+}
+
+// Select element overrides
+
+.select {
+  position: relative;
+  -webkit-appearance:none;
+
+  &:after {
+    content: '';
+    position: absolute;
+    top: 0;
+    width: 0;
+    height: 0;
+    right: 10px;
+    bottom: 0;
+    margin: auto;
+    border-style: solid;
+    border-width: 5px 5px 0 5px;
+    border-color: $black transparent transparent transparent;
+    pointer-events: none;
+  }
+
+  &:before {
+    width: 30px;
+    position: absolute;
+    top: 1px;
+    right: 1px;
+    bottom: 1px;
+    background: $gray-lighter;
+    content: '';
+    pointer-events: none;
+  }
+
+  &:hover {
+    &:after {
+      border-color: $theme-primary-dark transparent transparent transparent;
+    }
+  }
+
+  select {
+    box-shadow: none;
+    cursor: pointer;
+    outline: none;
+    padding-right: 35px;
+    padding-left: 15px;
+    border-bottom-width: 1px;
+
+    // Firefox style reset
+    -moz-appearance: none;
+
+    &:-moz-focusring {
+      color: transparent;
+      text-shadow: 0 0 0 #000;
+    }
+
+    // Webkit style reset
+    -webkit-appearance: none;
+
+    // Disable default arrow on IE 11+
+    &::-ms-expand {
+      display: none;
+    }
+  }
+}
+
+// IE 9 only
+@media all and (min-width:0\0) and (min-resolution:.001dpcm){
+  .select{
+    select {
+      padding-right: 0;
+    }
+
+    &:after, &:before {
+      display: none;
+    }
   }
 }
 
@@ -153,7 +237,9 @@ input[type="url"]:focus,
 input[type="search"]:focus,
 input[type="tel"]:focus,
 input[type="color"]:focus,
+.form-control:focus,
 .uneditable-input:focus {
   border-color: $input-border;
-  box-shadow: 0 0 0 1px $input-border;
+  border-bottom-color: $black;
+  box-shadow: none;
 }

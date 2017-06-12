@@ -5875,6 +5875,10 @@ button.close {
   border-color: #0087ea;
   color: #0087ea; }
 
+.btn-primary:hover {
+  border-color: #0087ea;
+  background-color: #0087ea; }
+
 .btn-success:hover {
   border-color: #00b657;
   color: #00b657; }
@@ -5890,6 +5894,54 @@ button.close {
 .btn-danger:hover {
   border-color: #ff6722;
   color: #ff6722; }
+
+.select {
+  position: relative;
+  -webkit-appearance: none; }
+  .select:after {
+    content: '';
+    position: absolute;
+    top: 0;
+    width: 0;
+    height: 0;
+    right: 10px;
+    bottom: 0;
+    margin: auto;
+    border-style: solid;
+    border-width: 5px 5px 0 5px;
+    border-color: #000000 transparent transparent transparent;
+    pointer-events: none; }
+  .select:before {
+    width: 30px;
+    position: absolute;
+    top: 1px;
+    right: 1px;
+    bottom: 1px;
+    background: #ebedf1;
+    content: '';
+    pointer-events: none; }
+  .select:hover:after {
+    border-color: #0072c6 transparent transparent transparent; }
+  .select select {
+    box-shadow: none;
+    cursor: pointer;
+    outline: none;
+    padding-right: 35px;
+    padding-left: 15px;
+    border-bottom-width: 1px;
+    -moz-appearance: none;
+    -webkit-appearance: none; }
+    .select select:-moz-focusring {
+      color: transparent;
+      text-shadow: 0 0 0 #000; }
+    .select select::-ms-expand {
+      display: none; }
+
+@media all and (min-width: 0\0) and (min-resolution: 0.001dpcm) {
+  .select select {
+    padding-right: 0; }
+  .select:after, .select:before {
+    display: none; } }
 
 .navbar-default {
   border-bottom: 1px solid #0072c6; }
@@ -5979,9 +6031,11 @@ input[type="url"]:focus,
 input[type="search"]:focus,
 input[type="tel"]:focus,
 input[type="color"]:focus,
+.form-control:focus,
 .uneditable-input:focus {
   border-color: #abb2bd;
-  box-shadow: 0 0 0 1px #abb2bd; }
+  border-bottom-color: #000000;
+  box-shadow: none; }
 
 .bs-component {
   margin-bottom: 2em; }

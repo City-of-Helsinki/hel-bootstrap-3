@@ -959,14 +959,17 @@
             <p class="help-block">Example block-level help text here.</p>
           </div>
           <div class="form-group">
-            <label for="select1">select</label>
-            <select class="form-control" id="select1">
-                  <option>select</option>
-                  <option>2</option>
-                  <option>3</option>
-                  <option>4</option>
-                  <option>5</option>
+              <label for="select1">select</label>
+              <div class="select">
+                <select class="form-control" id="select1">
+                      <option>select</option>
+                      <option>2</option>
+                      <option>3</option>
+                      <option>4</option>
+                      <option>5</option>
                 </select>
+              </div>
+              To achieve cross-browser consistency wrap <code>select</code> with <code>.select</code> element.
           </div>
           <div class="form-group">
             <label for="exampleInputPassword1">Password</label>
