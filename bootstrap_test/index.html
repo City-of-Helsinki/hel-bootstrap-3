@@ -9,8 +9,7 @@
         
         <link rel="shortcut icon" href="../img/favicon.ico">
         <title>Bootstrap test - Helsinki Bootstrap 3 components</title>
-        <link href="../css/hel-bootstrap.css" rel="stylesheet">
-        <link rel="stylesheet" href="../css/highlight.css">
+        <link href="https://netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap-glyphicons.css" rel="stylesheet">
         <link href="../css/base.css" rel="stylesheet">
         <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
         <!--[if lt IE 9]>
@@ -21,13 +20,14 @@
         <script src="../js/jquery-1.10.2.min.js"></script>
         <script src="../js/bootstrap-3.0.3.min.js"></script>
         <script src="../js/highlight.pack.js"></script>
+        <link href="../css/font-awesome-4.0.3.css" rel="stylesheet">
          
     </head>
 
     <body>
 
         <div class="navbar navbar-default navbar-fixed-top" role="navigation">
-    <div class="container">
+    <div class="container-fluid">
 
         <!-- Collapsed navigation -->
         <div class="navbar-header">
@@ -88,7 +88,9 @@
                 <li>
                     <a href="https://github.com/City-of-Helsinki/hel-bootstrap-3">
                         
-                        upstream
+                            <i class="fa fa-github"></i>
+                        
+                        GitHub
                     </a>
                 </li>
                 
@@ -231,38 +233,6 @@
       <h4>When to use</h4>
       <p>Avoid change backgrounds to this colors, they should be used only for <b>main</b> actions and elements of a page.</p>
       <p>The most important elements that can need this colors already exist on the styleguide, like <b>buttons</b>, <b>labels</b>, <b>progress bars</b> and <b>panels</b>.</p>
-    </div>
-  </div>
-  <div class="row">
-    <div class="col-xs-12">
-      <h3 class="bs-component-title">Light colors</h3>
-    </div>
-    <div class="col-xs-12 col-lg-8 text-center text-white">
-      <div class="bs-component">
-        <div class="bg-primary-light">
-          <h4 class=" text-white">Background primary</h4>
-        </div>
-        <div class="bg-success-light">
-          <h4 class="text-white">Background success</h4>
-        </div>
-        <div class="bg-info-light">
-          <h4>Background info</h4>
-        </div>
-        <div class="bg-warning-light">
-          <h4 class="text-white">Background warning</h4>
-        </div>
-        <div class="bg-danger-light">
-          <h4 class="text-white">Background danger</h4>
-        </div>
-      </div>
-    </div>
-    <div class="col-xs-12 col-lg-4">
-      <h4 class="doc-info-title">How to use</h4>
-      <p>Just add the class <code>bg-XXX-light</code> to the element.</p>
-      <p>To avoid conflict with some pre existent <code>background-color</code> just add another <code>div</code> with the class.</p>
-      <h4>When to use</h4>
-      <p>Use this colors to <b>highlight</b> some information, like words or phases, etc.</p>
-      <p>The most important elements that can need this colors already exist on the styleguide, like <b>rows in tables</b>, <b>alerts</b>, <b>disabled buttons</b> and <b>list itens</b>.</p>
     </div>
   </div>
 </article>
@@ -459,11 +429,11 @@
     <div class="col-xs-12 col-lg-8">
       <div class="bs-component">
         <address>
-              <strong>Company GmbH</strong><br>
-              strret nr<br>
-              ZIPCODE Berlin<br>
+              <strong>City of Helsinki</strong><br>
+              PL 1<br>
+              00099 HELSINGIN KAUPUNKI<br>
               <abbr title="Phone">P:</abbr>
-              <a href="tel:#"> 0800 98089ut</a>
+              <a href="tel:09 310 1691"> 09 310 1691</a>
             </address>
         <address>
               <strong>Full Name</strong><br>
@@ -1021,7 +991,7 @@
             <div class="col-xs-12">
               <div class="form-group">
                 <label class="control-label" for="focusedInput">Focused input</label>
-                <input class="form-control" id="focusedInput" autofocus type="text" value="This is focused...">
+                <input class="form-control" id="focusedInput" type="text" value="Click to focus on this...">
               </div>
               <div class="form-group">
                 <label class="control-label" for="disabledInput">Disabled input</label>
@@ -1030,14 +1000,17 @@
               <div class="form-group has-warning">
                 <label class="control-label" for="inputWarning">Input warning</label>
                 <input type="text" class="form-control" id="inputWarning">
+                <span class="help-block">Warning help text</span>
               </div>
               <div class="form-group has-error">
                 <label class="control-label" for="inputError">Input error</label>
                 <input type="text" class="form-control" id="inputError">
+                <span class="help-block">Error help text</span>
               </div>
               <div class="form-group has-success">
                 <label class="control-label" for="inputSuccess">Input success</label>
                 <input type="text" class="form-control" id="inputSuccess">
+                <span class="help-block">Success help text</span>
               </div>
             </div>
           </div>
@@ -1151,14 +1124,17 @@
             <p class="help-block">Example block-level help text here.</p>
           </div>
           <div class="form-group">
-            <label for="select1">select</label>
-            <select class="form-control" id="select1">
-                  <option>select</option>
-                  <option>2</option>
-                  <option>3</option>
-                  <option>4</option>
-                  <option>5</option>
+              <label for="select1">select</label>
+              <div class="select">
+                <select class="form-control" id="select1">
+                      <option>select</option>
+                      <option>2</option>
+                      <option>3</option>
+                      <option>4</option>
+                      <option>5</option>
                 </select>
+              </div>
+              To achieve cross-browser consistency wrap <code>select</code> with <code>.select</code> element.
           </div>
           <div class="form-group">
             <label for="exampleInputPassword1">Password</label>
@@ -1767,7 +1743,7 @@
     </div>
     <div class="col-xs-12 col-lg-8">
       <div class="bs-component">
-        Phrase » <span class="text-hide"><img src="/img/logo.svg" width="150px" /></span> « with some text hidden
+        Phrase » <span class="text-hide"><img src="../assets/helsinki-logo-black.svg" width="150px" /></span> « with some text hidden
       </div>
     </div>
     <div class="col-xs-12 col-lg-4">

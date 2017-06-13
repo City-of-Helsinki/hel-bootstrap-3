@@ -1,0 +1,304 @@
+.bs-component {
+  margin-bottom: 2em;
+}
+
+.panel--color>.panel-heading {
+  height: 8rem;
+}
+
+.bg--silver {
+  background-color: $hel-silver !important;
+  &:hover {
+    background-color: lighten($hel-silver, 5%) !important;
+  }
+}
+
+.bg--gold {
+  background-color: $hel-gold !important;
+  &:hover {
+    background-color: lighten($hel-gold, 5%) !important;
+  }
+}
+
+.bg--black {
+  background-color: $black !important;
+  &:hover {
+    background-color: lighten($black, 5%) !important;
+  }
+}
+
+.bg--copper {
+  background-color: $hel-copper !important;
+  &:hover {
+    background-color: lighten($hel-copper, 5%) !important;
+  }
+}
+
+.bg--bus {
+  background-color: $hel-bus !important;
+  &:hover {
+    background-color: lighten($hel-bus, 5%) !important;
+  }
+}
+
+.bg--coat {
+  background-color: $hel-coat !important;
+  &:hover {
+    background-color: lighten($hel-coat, 5%) !important;
+  }
+}
+
+.bg--fog {
+  background-color: $hel-fog !important;
+  &:hover {
+    background-color: lighten($hel-fog, 5%) !important;
+  }
+}
+
+.bg--metro {
+  background-color: $hel-metro !important;
+  &:hover {
+    background-color: lighten($hel-metro, 5%) !important;
+  }
+}
+
+.bg--brick {
+  background-color: $hel-brick !important;
+  &:hover {
+    background-color: lighten($hel-brick, 5%) !important;
+  }
+}
+
+.bg--light-gray {
+  background-color: $light-gray !important;
+  &:hover {
+    background-color: lighten($light-gray, 3%) !important;
+  }
+}
+
+.bg--suomenlinna {
+  background-color: $hel-suomenlinna !important;
+  &:hover {
+    background-color: lighten($hel-suomenlinna, 5%) !important;
+  }
+}
+
+.bg--engel {
+  background-color: $hel-engel !important;
+  &:hover {
+    background-color: lighten($hel-engel, 5%) !important;
+  }
+}
+
+.bg--tram {
+  background-color: $hel-tram !important;
+  &:hover {
+    background-color: lighten($hel-tram, 5%) !important;
+  }
+}
+
+.bg--summer {
+  background-color: $hel-summer !important;
+  &:hover {
+    background-color: lighten($hel-summer, 5%) !important;
+  }
+}
+
+.bg--dark-gray {
+  background-color: $dark-gray !important;
+  &:hover {
+    background-color: lighten($dark-gray, 5%) !important;
+  }
+}
+
+.bg--medium-gray {
+  background-color: $medium-gray !important;
+  &:hover {
+    background-color: lighten($medium-gray, 5%) !important;
+  }
+}
+
+.bg--white {
+  background-color: $white !important;
+}
+
+.text--silver {
+  color: $hel-silver;
+}
+
+.text--gold {
+  color: $hel-gold;
+}
+
+.text--black {
+  color: $hel-black;
+}
+
+.text--copper {
+  color: $hel-copper;
+}
+
+.text--bus {
+  color: $hel-bus;
+}
+
+.text--coat {
+  color: $hel-coat;
+}
+
+.text--fog {
+  color: $hel-fog;
+}
+
+.text--metro {
+  color: $hel-metro;
+}
+
+.text--brick {
+  color: $hel-brick;
+}
+
+.text--light-gray {
+  color: $light-gray;
+}
+
+.text--suomenlinna {
+  color: $hel-suomenlinna;
+}
+
+.text--engel {
+  color: $hel-engel;
+}
+
+.text--tram {
+  color: $hel-tram;
+}
+
+.text--summer {
+  color: $hel-summer;
+}
+
+.text--dark-gray {
+  color: $dark-gray;
+}
+
+.text--medium-gray {
+  color: $medium-gray;
+}
+
+.text--white {
+  color: $white;
+}
+
+.partition-test {
+  color: $hel-white;
+  padding: 2em;
+  height: 12em;
+  background-repeat: no-repeat;
+}
+
+.partition-scale-100 {
+  background-size: 800px 800px;
+}
+
+.partition-scale-200 {
+  background-size: 1600px 1600px;
+}
+
+.partition-scale-300 {
+  background-size: 2400px 2400px;
+}
+
+.partition-scale-400 {
+  background-size: 3200px 3200px;
+}
+
+.partition-angle-0 {
+  background-position: left 0 top 10px;
+  &.partition-offset-100 {
+    background-position: left 0 top 100px;
+  }
+  &.partition-offset-200 {
+    background-position: left 0 top 200px;
+  }
+}
+
+.partition-angle-45 {
+  background-position: bottom 0 left 10px;
+  &.partition-offset-100 {
+    background-position: bottom 0 left 100px;
+  }
+  &.partition-offset-200 {
+    background-position: bottom 0 left 200px;
+  }
+}
+
+.partition-angle-90 {
+  background-position: bottom 0 left 10px;
+  &.partition-offset-100 {
+    background-position: bottom 0 left 100px;
+  }
+  &.partition-offset-200 {
+    background-position: bottom 0 left 200px;
+  }
+}
+
+.partition-angle-145 {
+  background-position: top 0 left 10px;
+  &.partition-offset-100 {
+    background-position: top 0 left 100px;
+  }
+  &.partition-offset-200 {
+    background-position: top 0 left 200px;
+  }
+}
+
+.partition-angle-180 {
+  background-position: left 0 bottom 10px;
+  &.partition-offset-100 {
+    background-position: left 0 bottom 100px;
+  }
+  &.partition-offset-200 {
+    background-position: left 0 bottom 200px;
+  }
+}
+
+.partition-pulse-brick.partition-angle-0 {
+  background-image: url(../assets/koro-pulse-brick-0.svg);
+}
+
+.partition-pulse-brick.partition-angle-45 {
+  background-image: url(../assets/koro-pulse-brick-45.svg);
+}
+
+.partition-pulse-brick.partition-angle-90 {
+  background-image: url(../assets/koro-pulse-brick-90.svg);
+}
+
+.partition-pulse-brick.partition-angle-145 {
+  background-image: url(../assets/koro-pulse-brick-145.svg);
+}
+
+.partition-pulse-brick.partition-angle-180 {
+  background-image: url(../assets/koro-pulse-brick-180.svg);
+}
+
+.partition-storm-metro.partition-angle-0 {
+  background-image: url(../assets/koro-storm-metro-0.svg);
+}
+
+.partition-storm-metro.partition-angle-45 {
+  background-image: url(../assets/koro-storm-metro-45.svg);
+}
+
+.partition-storm-metro.partition-angle-90 {
+  background-image: url(../assets/koro-storm-metro-90.svg);
+}
+
+.partition-storm-metro.partition-angle-145 {
+  background-image: url(../assets/koro-storm-metro-145.svg);
+}
+
+.partition-storm-metro.partition-angle-180 {
+  background-image: url(../assets/koro-storm-metro-180.svg);
+}
