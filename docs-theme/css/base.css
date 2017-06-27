@@ -6205,82 +6205,59 @@ input[type="color"]:focus,
   height: 12em;
   background-repeat: no-repeat; }
 
-.partition-scale-100 {
-  background-size: 800px 800px; }
+.basic-bus-300 {
+  background-size: 60px 2400px;
+  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' x='0px' y='0px' viewBox='0 0 20 800' style='enable-background:new 0 0 20 800;' xml:space='preserve'%3E %3Cstyle type='text/css'%3E .kf%7Bfill:%230000bf;%7D %3C/style%3E %3Ctitle%3Ekoro-basic-fog-0%3C/title%3E %3Cpath class='kf' d='M0,800h800'/%3E %3Cpath class='kf' d='M0,800h20V0c-4.9,0-5,2.6-9.9,2.6S5,0,0,0V800z'/%3E %3C/svg%3E ");
+  background-position: top;
+  background-repeat: repeat-x; }
 
-.partition-scale-200 {
-  background-size: 1600px 1600px; }
+.storm-bus-300 {
+  background-size: 60px 2400px;
+  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' x='0px' y='0px' viewBox='0 0 20 800' style='enable-background:new 0 0 20 800;' xml:space='preserve'%3E %3Cstyle type='text/css'%3E .kf%7Bfill:%230000bf;%7D %3C/style%3E %3Ctitle%3Ekoro-storm-fog-0%3C/title%3E %3Cpath class='kf' d='M20,800V0c-2.3,5.5-8.7,8.1-14.3,5.7C3.1,4.7,1.2,2.6,0,0v800H20z'/%3E %3C/svg%3E ");
+  background-position: top;
+  background-repeat: repeat-x; }
 
-.partition-scale-300 {
-  background-size: 2400px 2400px; }
+.beat-bus-300 {
+  background-size: 60px 2400px;
+  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' x='0px' y='0px' viewBox='0 0 20 800' style='enable-background:new 0 0 20 800;' xml:space='preserve'%3E %3Cstyle type='text/css'%3E .kf%7Bfill:%230000bf;%7D %3C/style%3E %3Ctitle%3Ekoro-beat-fog-0%3C/title%3E %3Cpath class='kf' d='M800.7,800h0.3H-1'/%3E %3Cpath class='kf' d='M20,800H0V0c2.8,0,3.5,2.3,3.5,2.3l2.8,8.4c0.6,1.5,1.9,2.5,3.6,2.5c2.8,0,3.6-2.5,3.6-2.5s2.8-8.1,2.8-8.2 C17,1,18.3,0,20,0V800z'/%3E %3C/svg%3E");
+  background-position: top;
+  background-repeat: repeat-x; }
 
-.partition-scale-400 {
-  background-size: 3200px 3200px; }
+.pulse-bus-300 {
+  background-size: 60px 2400px;
+  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' x='0px' y='0px' viewBox='0 0 20 800' style='enable-background:new 0 0 20 800;' xml:space='preserve'%3E %3Cstyle type='text/css'%3E .kf%7Bfill:%230000bf;%7D %3C/style%3E %3Ctitle%3Ekoro-pulse-fog-0%3C/title%3E %3Cpath class='kf' d='M0,799.9l800-0.7'/%3E %3Cpath class='kf' d='M0,800h20V0c-5.1,0-5.1,6.4-10,6.4S4.9,0,0,0V800z'/%3E %3C/svg%3E ");
+  background-position: top;
+  background-repeat: repeat-x; }
 
-.partition-angle-0 {
-  background-position: left 0 top 10px; }
-  .partition-angle-0.partition-offset-100 {
-    background-position: left 0 top 100px; }
-  .partition-angle-0.partition-offset-200 {
-    background-position: left 0 top 200px; }
+.wave-bus-300 {
+  background-size: 60px 2400px;
+  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' x='0px' y='0px' viewBox='0 0 20 800' style='enable-background:new 0 0 20 800;' xml:space='preserve'%3E %3Cstyle type='text/css'%3E .kf%7Bfill:%230000bf;%7D %3C/style%3E %3Ctitle%3Ekoro-wave-fog-0%3C/title%3E %3Cpolygon class='kf' points='0,800 20,800 20,0 9.8,10.1 0,0 '/%3E %3C/svg%3E ");
+  background-position: top;
+  background-repeat: repeat-x; }
 
-.partition-angle-45 {
-  background-position: bottom 0 left 10px; }
-  .partition-angle-45.partition-offset-100 {
-    background-position: bottom 0 left 100px; }
-  .partition-angle-45.partition-offset-200 {
-    background-position: bottom 0 left 200px; }
+.beat-copper-100 {
+  background-size: 20px 800px;
+  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' x='0px' y='0px' viewBox='0 0 20 800' style='enable-background:new 0 0 20 800;' xml:space='preserve'%3E %3Cstyle type='text/css'%3E .kf%7Bfill:%2300d7a7;%7D %3C/style%3E %3Ctitle%3Ekoro-beat-fog-0%3C/title%3E %3Cpath class='kf' d='M800.7,800h0.3H-1'/%3E %3Cpath class='kf' d='M20,800H0V0c2.8,0,3.5,2.3,3.5,2.3l2.8,8.4c0.6,1.5,1.9,2.5,3.6,2.5c2.8,0,3.6-2.5,3.6-2.5s2.8-8.1,2.8-8.2 C17,1,18.3,0,20,0V800z'/%3E %3C/svg%3E");
+  background-position: top;
+  background-repeat: repeat-x; }
 
-.partition-angle-90 {
-  background-position: bottom 0 left 10px; }
-  .partition-angle-90.partition-offset-100 {
-    background-position: bottom 0 left 100px; }
-  .partition-angle-90.partition-offset-200 {
-    background-position: bottom 0 left 200px; }
+.beat-suomenlinna-500 {
+  background-size: 100px 4000px;
+  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' x='0px' y='0px' viewBox='0 0 20 800' style='enable-background:new 0 0 20 800;' xml:space='preserve'%3E %3Cstyle type='text/css'%3E .kf%7Bfill:%23f5a3c7;%7D %3C/style%3E %3Ctitle%3Ekoro-beat-fog-0%3C/title%3E %3Cpath class='kf' d='M800.7,800h0.3H-1'/%3E %3Cpath class='kf' d='M20,800H0V0c2.8,0,3.5,2.3,3.5,2.3l2.8,8.4c0.6,1.5,1.9,2.5,3.6,2.5c2.8,0,3.6-2.5,3.6-2.5s2.8-8.1,2.8-8.2 C17,1,18.3,0,20,0V800z'/%3E %3C/svg%3E");
+  background-position: top;
+  background-repeat: repeat-x; }
 
-.partition-angle-145 {
-  background-position: top 0 left 10px; }
-  .partition-angle-145.partition-offset-100 {
-    background-position: top 0 left 100px; }
-  .partition-angle-145.partition-offset-200 {
-    background-position: top 0 left 200px; }
+.storm-tram-250 {
+  background-size: 50px 2000px;
+  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' x='0px' y='0px' viewBox='0 0 20 800' style='enable-background:new 0 0 20 800;' xml:space='preserve'%3E %3Cstyle type='text/css'%3E .kf%7Bfill:%23009246;%7D %3C/style%3E %3Ctitle%3Ekoro-storm-fog-0%3C/title%3E %3Cpath class='kf' d='M20,800V0c-2.3,5.5-8.7,8.1-14.3,5.7C3.1,4.7,1.2,2.6,0,0v800H20z'/%3E %3C/svg%3E ");
+  background-position: top;
+  background-repeat: repeat-x; }
 
-.partition-angle-180 {
-  background-position: left 0 bottom 10px; }
-  .partition-angle-180.partition-offset-100 {
-    background-position: left 0 bottom 100px; }
-  .partition-angle-180.partition-offset-200 {
-    background-position: left 0 bottom 200px; }
-
-.partition-pulse-brick.partition-angle-0 {
-  background-image: url(../assets/koro-pulse-brick-0.svg); }
-
-.partition-pulse-brick.partition-angle-45 {
-  background-image: url(../assets/koro-pulse-brick-45.svg); }
-
-.partition-pulse-brick.partition-angle-90 {
-  background-image: url(../assets/koro-pulse-brick-90.svg); }
-
-.partition-pulse-brick.partition-angle-145 {
-  background-image: url(../assets/koro-pulse-brick-145.svg); }
-
-.partition-pulse-brick.partition-angle-180 {
-  background-image: url(../assets/koro-pulse-brick-180.svg); }
-
-.partition-storm-metro.partition-angle-0 {
-  background-image: url(../assets/koro-storm-metro-0.svg); }
-
-.partition-storm-metro.partition-angle-45 {
-  background-image: url(../assets/koro-storm-metro-45.svg); }
-
-.partition-storm-metro.partition-angle-90 {
-  background-image: url(../assets/koro-storm-metro-90.svg); }
-
-.partition-storm-metro.partition-angle-145 {
-  background-image: url(../assets/koro-storm-metro-145.svg); }
-
-.partition-storm-metro.partition-angle-180 {
-  background-image: url(../assets/koro-storm-metro-180.svg); }
+.storm-engel-400 {
+  background-size: 80px 3200px;
+  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' x='0px' y='0px' viewBox='0 0 20 800' style='enable-background:new 0 0 20 800;' xml:space='preserve'%3E %3Cstyle type='text/css'%3E .kf%7Bfill:%23ffe977;%7D %3C/style%3E %3Ctitle%3Ekoro-storm-fog-0%3C/title%3E %3Cpath class='kf' d='M20,800V0c-2.3,5.5-8.7,8.1-14.3,5.7C3.1,4.7,1.2,2.6,0,0v800H20z'/%3E %3C/svg%3E ");
+  background-position: top;
+  background-repeat: repeat-x; }
 
 /*
 This is the GitHub theme for highlight.js

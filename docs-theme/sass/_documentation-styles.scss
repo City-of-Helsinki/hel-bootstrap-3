@@ -197,108 +197,38 @@
   background-repeat: no-repeat;
 }
 
-.partition-scale-100 {
-  background-size: 800px 800px;
+.basic-bus-300 {
+  @include koro("basic",$hel-bus, 300);
 }
 
-.partition-scale-200 {
-  background-size: 1600px 1600px;
+.storm-bus-300 {
+  @include koro("storm",$hel-bus, 300);
 }
 
-.partition-scale-300 {
-  background-size: 2400px 2400px;
+.beat-bus-300 {
+  @include koro("beat",$hel-bus, 300);
 }
 
-.partition-scale-400 {
-  background-size: 3200px 3200px;
+.pulse-bus-300 {
+  @include koro("pulse",$hel-bus, 300);
 }
 
-.partition-angle-0 {
-  background-position: left 0 top 10px;
-  &.partition-offset-100 {
-    background-position: left 0 top 100px;
-  }
-  &.partition-offset-200 {
-    background-position: left 0 top 200px;
-  }
+.wave-bus-300 {
+  @include koro("wave", $hel-bus, 300);
 }
 
-.partition-angle-45 {
-  background-position: bottom 0 left 10px;
-  &.partition-offset-100 {
-    background-position: bottom 0 left 100px;
-  }
-  &.partition-offset-200 {
-    background-position: bottom 0 left 200px;
-  }
+.beat-copper-100 {
+  @include koro("beat", $hel-copper, 100);
 }
 
-.partition-angle-90 {
-  background-position: bottom 0 left 10px;
-  &.partition-offset-100 {
-    background-position: bottom 0 left 100px;
-  }
-  &.partition-offset-200 {
-    background-position: bottom 0 left 200px;
-  }
+.beat-suomenlinna-500 {
+  @include koro("beat", $hel-suomenlinna, 500);
 }
 
-.partition-angle-145 {
-  background-position: top 0 left 10px;
-  &.partition-offset-100 {
-    background-position: top 0 left 100px;
-  }
-  &.partition-offset-200 {
-    background-position: top 0 left 200px;
-  }
+.storm-tram-250 {
+  @include koro("storm", $hel-tram, 250);
 }
 
-.partition-angle-180 {
-  background-position: left 0 bottom 10px;
-  &.partition-offset-100 {
-    background-position: left 0 bottom 100px;
-  }
-  &.partition-offset-200 {
-    background-position: left 0 bottom 200px;
-  }
-}
-
-.partition-pulse-brick.partition-angle-0 {
-  background-image: url(../assets/koro-pulse-brick-0.svg);
-}
-
-.partition-pulse-brick.partition-angle-45 {
-  background-image: url(../assets/koro-pulse-brick-45.svg);
-}
-
-.partition-pulse-brick.partition-angle-90 {
-  background-image: url(../assets/koro-pulse-brick-90.svg);
-}
-
-.partition-pulse-brick.partition-angle-145 {
-  background-image: url(../assets/koro-pulse-brick-145.svg);
-}
-
-.partition-pulse-brick.partition-angle-180 {
-  background-image: url(../assets/koro-pulse-brick-180.svg);
-}
-
-.partition-storm-metro.partition-angle-0 {
-  background-image: url(../assets/koro-storm-metro-0.svg);
-}
-
-.partition-storm-metro.partition-angle-45 {
-  background-image: url(../assets/koro-storm-metro-45.svg);
-}
-
-.partition-storm-metro.partition-angle-90 {
-  background-image: url(../assets/koro-storm-metro-90.svg);
-}
-
-.partition-storm-metro.partition-angle-145 {
-  background-image: url(../assets/koro-storm-metro-145.svg);
-}
-
-.partition-storm-metro.partition-angle-180 {
-  background-image: url(../assets/koro-storm-metro-180.svg);
+.storm-engel-400 {
+  @include koro("storm", $hel-engel, 400);
 }
