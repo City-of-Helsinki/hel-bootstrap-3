@@ -190,6 +190,24 @@
   color: $white;
 }
 
+.logo-test {
+  margin-bottom: $line-height-computed;
+}
+
+.logo-test--black {
+  @include helsinki-logo($black);
+  height: $line-height-computed * 4;
+}
+
+.logo-test--copper {
+  @include helsinki-logo($hel-copper);
+  height: $line-height-computed * 3;
+}
+
+.logo-test--bus {
+  @include helsinki-logo($hel-bus);
+  height: $line-height-computed * 2;
+}
 .partition-test {
   color: $hel-white;
   padding: 2em;
