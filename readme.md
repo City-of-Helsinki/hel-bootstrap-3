@@ -1,8 +1,6 @@
 # City of Helsinki Bootstrap 3 Theme
 
-:bangbang: :bangbang: :bangbang: Under development. For setup testing purposes only :bangbang: :bangbang: :bangbang:
-
-This is the documentation for City of Helsinki [Bootstrap](https://getboostrap.com) theme. We are currently testing the best ways to deliver theming documentation and files.
+City of Helsinki [Bootstrap](https://getboostrap.com) theme. **Beta**
 
 ## Contents
 
@@ -15,18 +13,11 @@ Install or add Bootstrap sass theme to your application
 ```
 npm install hel-bootstrap-3
 ```
-(Not yet published install from Github repo instead)
 
-## Use as it is
+## Use customised
 
-You can now either import the default theme with all components
-```
-@import hel-bootstrap-theme;
-```
+Import the sass files in this order. Customise the theme for your application and exclude the Bootstrap components you are not using.
 
-## Use as customised
-
-Or customise the theme for your application and exclude the Bootstrap components you are not using
 ```
 @import helsinki-variables;
 
@@ -38,6 +29,8 @@ Or customise the theme for your application and exclude the Bootstrap components
 
 @import theme-custom-styles;
 ```
+
+
 
 ## Files
 
