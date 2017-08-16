@@ -171,12 +171,34 @@
 
 // Styles when navbar is not collapsed
 @media (min-width: $screen-md-min) {
-  .navbar-default .navbar-nav > .active > a {
-    border-bottom: solid 3px $theme-primary-dark;
+  .navbar-nav > li > a {
+    position: relative;
+    padding-left: 0;
+    padding-right: 0;
+    margin-right: 15px;
+    margin-left: 15px;
+    font-weight: 500;
+    font-size: 15px;
   }
 
-  .navbar-inverse .navbar-nav > .active > a {
-    border-bottom: solid 3px $theme-highlight-light;
+  .navbar-nav > .active > a, .navbar-nav > li > a:hover {
+    &:after {
+      content: "";
+      border-bottom: solid 3px $black;
+      position: absolute;
+      bottom: 12px;
+      margin-left: auto;
+      margin-right: auto;
+      left: 0;
+      right: 0;
+    }
+  }
+
+  .navbar-inverse .navbar-nav > .active > a , .navbar-inverse .navbar-nav > li > a:hover {
+
+    &:after {
+      border-bottom: solid 3px $white;
+    }
   }
 }
 
@@ -193,8 +215,9 @@
   .navbar-nav > .active > a {
     font-weight: bold;
 
-    &:after {
-      content: "\000A0 \02022";
+    &:before {
+      content: "\000A0";
+      border-left: 3px solid $black;
     }
   }
 }
@@ -213,7 +236,7 @@
 }
 
 .navbar-default {
-  border-bottom: 1px solid $theme-primary-dark;
+  //border-bottom: 1px solid $theme-primary-dark;
 
   .navbar-collapse {
     border-top-color: $gray-lighter;
@@ -221,7 +244,7 @@
 }
 
 .navbar-brand {
-  font-weight: bold;
+  font-weight: 700;
   font-size: $font-size-base;
 }
 
@@ -326,4 +349,10 @@ input[type="color"]:focus,
   border-color: $input-border;
   border-bottom-color: $black;
   box-shadow: none;
+}
+
+// Panels
+
+.panel {
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.15);
 }

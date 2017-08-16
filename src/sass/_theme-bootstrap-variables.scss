@@ -53,18 +53,18 @@ $font-family-monospace:   Menlo, Monaco, Consolas, "Courier New", monospace !def
 $font-family-base:        $font-family-sans-serif !default;
 
 $font-size-base:          16px;
-$font-size-large:         ceil(($font-size-base * 1.25)) !default; // ~18px
-$font-size-small:         ceil(($font-size-base * 0.85)) !default; // ~12px
+$font-size-large:         ceil(($font-size-base * 1.25)) !default;  // ~18px
+$font-size-small:         ceil(($font-size-base * 0.85)) !default;  // ~12px
 
-$font-size-h1:            floor(($font-size-base * 2.6)) !default; // ~36px
-$font-size-h2:            floor(($font-size-base * 2.15)) !default; // ~30px
-$font-size-h3:            ceil(($font-size-base * 1.7)) !default; // ~24px
-$font-size-h4:            ceil(($font-size-base * 1.25)) !default; // ~18px
-$font-size-h5:            $font-size-base !default;
-$font-size-h6:            ceil(($font-size-base * 0.85)) !default; // ~12px
+$font-size-h1:            42px ;  // ~42px
+$font-size-h2:            36px ; // ~34px
+$font-size-h3:            28px ;   // ~28px
+$font-size-h4:            24px ;   // ~24px
+$font-size-h5:            20px ;  // ~20px
+$font-size-h6:            16px ;  // ~16px
 
 //** Unit-less `line-height` for use in components like buttons.
-$line-height-base:        1.428571429 !default; // 20/14
+$line-height-base:        1.5 !default; // 16/24
 //** Computed "line-height" (`font-size` * `line-height`) for use with `margin`, `padding`, etc.
 $line-height-computed:    floor(($font-size-base * $line-height-base)) !default; // ~20px
 
@@ -152,13 +152,13 @@ $table-border-color:            #ddd !default;
 
 $btn-font-weight:                500;
 
-$btn-default-color:              $theme-primary-dark;
+$btn-default-color:              $black;
 $btn-default-bg:                 transparent;
-$btn-default-border:             $theme-primary-dark;
+$btn-default-border:             $black;
 
 $btn-primary-color:              #fff !default;
-$btn-primary-bg:                 $theme-primary-dark;
-$btn-primary-border:             $theme-primary-dark;
+$btn-primary-bg:                 $black;
+$btn-primary-border:             $black;
 
 $btn-success-color:              $brand-success;
 $btn-success-bg:                 transparent;
@@ -372,39 +372,39 @@ $navbar-padding-horizontal:        floor(($grid-gutter-width / 2)) !default;
 $navbar-padding-vertical:          (($navbar-height - $line-height-computed) / 2) !default;
 $navbar-collapse-max-height:       340px !default;
 
-$navbar-default-color:             $theme-primary-dark;
+$navbar-default-color:             $black;
 $navbar-default-bg:                $white;
 $navbar-default-border:            transparent;
 
 // Navbar links
-$navbar-default-link-color:                $theme-primary-dark;
-$navbar-default-link-hover-color:          $theme-highlight-dark;
+$navbar-default-link-color:                $black;
+$navbar-default-link-hover-color:          $black;
 $navbar-default-link-hover-bg:             transparent !default;
-$navbar-default-link-active-color:         $theme-primary-dark;
+$navbar-default-link-active-color:         $black;
 $navbar-default-link-active-bg:            transparent;
 $navbar-default-link-disabled-color:       $gray;
 $navbar-default-link-disabled-bg:          transparent !default;
 
 // Navbar brand label
 $navbar-default-brand-color:               $navbar-default-link-color !default;
-$navbar-default-brand-hover-color:         $theme-highlight-dark;
+$navbar-default-brand-hover-color:         $black;
 $navbar-default-brand-hover-bg:            transparent !default;
 
 // Navbar toggle
 $navbar-default-toggle-hover-bg:           transparent;
-$navbar-default-toggle-icon-bar-bg:        $theme-primary-dark;
+$navbar-default-toggle-icon-bar-bg:        $black;
 $navbar-default-toggle-border-color:       transparent;
 
 
 //=== Inverted navbar
 // Reset inverted navbar basics
 $navbar-inverse-color:                      $white;
-$navbar-inverse-bg:                         $theme-primary-dark;
+$navbar-inverse-bg:                         $black;
 $navbar-inverse-border:                     transparent;
 
 // Inverted navbar links
 $navbar-inverse-link-color:                 $white;
-$navbar-inverse-link-hover-color:           $theme-highlight-light;
+$navbar-inverse-link-hover-color:           $white;
 $navbar-inverse-link-hover-bg:              transparent !default;
 $navbar-inverse-link-active-color:          $white;
 $navbar-inverse-link-active-bg:             transparent;
@@ -413,7 +413,7 @@ $navbar-inverse-link-disabled-bg:           transparent !default;
 
 // Inverted navbar brand label
 $navbar-inverse-brand-color:                $navbar-inverse-link-color !default;
-$navbar-inverse-brand-hover-color:          $theme-highlight-light;
+$navbar-inverse-brand-hover-color:          $white;
 $navbar-inverse-brand-hover-bg:             transparent !default;
 
 // Inverted navbar toggle
@@ -505,19 +505,19 @@ $jumbotron-heading-font-size:    ceil(($font-size-base * 4.5)) !default;
 //## Define colors for form feedback states and, by default, alerts.
 
 $state-success-text:             $black;
-$state-success-bg:               $brand-success;
+$state-success-bg:               $theme-success-light;
 $state-success-border:           transparent;
 
 $state-info-text:                $black;
-$state-info-bg:                  $brand-info;
+$state-info-bg:                  $theme-info-light;
 $state-info-border:              transparent;
 
 $state-warning-text:             $black;
-$state-warning-bg:               $brand-warning;
+$state-warning-bg:               $theme-warning-light;
 $state-warning-border:           transparent;
 
-$state-danger-text:              $white;
-$state-danger-bg:                $brand-danger;
+$state-danger-text:              $black;
+$state-danger-bg:                $theme-danger-light;
 $state-danger-border:            transparent;
 
 
@@ -577,13 +577,13 @@ $label-default-bg:            $gray-light !default;
 //** Primary label background color
 $label-primary-bg:            $theme-primary-light;
 //** Success label background color
-$label-success-bg:            $brand-success !default;
+$label-success-bg:            $theme-success-light;
 //** Info label background color
-$label-info-bg:               $brand-info !default;
+$label-info-bg:               $theme-info-light;
 //** Warning label background color
-$label-warning-bg:            $brand-warning !default;
+$label-warning-bg:            $theme-warning-light;
 //** Danger label background color
-$label-danger-bg:             $brand-danger !default;
+$label-danger-bg:             $theme-danger-light;
 
 //** Default label text color
 $label-color:                 $black;
