@@ -1,5 +1,7 @@
 # City of Helsinki Bootstrap 3 Theme
 
+[![npm version](https://img.shields.io/npm/v/hel-bootstrap-3.svg?style=flat-square)](https://www.npmjs.com/package/hel-bootstrap-3)
+
 City of Helsinki [Bootstrap](https://getboostrap.com) theme. **Beta**
 
 ## Contents
