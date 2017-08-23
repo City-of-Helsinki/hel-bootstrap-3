@@ -880,7 +880,7 @@
             <div class="col-xs-12">
               <div class="form-group">
                 <label class="control-label" for="inputLarge">Large input</label>
-                <input class="form-control input-lg" type="text" id="inputLarge">
+                <input class="form-control input-lg" type="text" id="inputLarge" placeholder="This is placeholder">
               </div>
               <div class="form-group">
                 <label class="control-label" for="inputDefault">Default input</label>
@@ -982,6 +982,10 @@
           <div class="form-group">
             <label for="disabled1">Readonly field</label>
             <input type="password" class="form-control" id="disabled1" placeholder="Readonly field" readonly="">
+          </div>
+          <div class="form-group">
+            <label for="text-area">Text area</label>
+            <textarea class="form-control" id="text-area" rows="3">Textarea field</textarea>
           </div>
           <div class="form-group">
             <label for="exampleInputFile">File input</label>
