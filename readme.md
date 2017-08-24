@@ -15,6 +15,7 @@ Install or add Bootstrap sass theme to your application
 ```
 npm install hel-bootstrap-3
 ```
+NOTE: This probably [fails](https://github.com/City-of-Helsinki/hel-bootstrap-3/issues/10) on most enviroments as the sass files can not find each other or their dependencies. So importing individual files recommended for now:
 
 ## Use customised
 

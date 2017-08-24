@@ -5884,20 +5884,9 @@ a:active, a:hover {
 .dropdown-menu a,
 .breadcrumb a,
 .pager a,
-.panel-title a {
-  text-decoration: none; }
-
+.panel-title a,
 a.list-group-item {
-  text-decoration: none;
-  padding-right: 20px;
-  position: relative; }
-
-a.list-group-item:after {
-  font-family: "FontAwesome";
-  content: "\f0c1";
-  position: absolute;
-  right: 10px;
-  top: 10px; }
+  text-decoration: none; }
 
 .btn.btn-link {
   text-decoration: underline;
