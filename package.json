@@ -1,6 +1,6 @@
 {
   "name": "hel-bootstrap-3",
-  "version": "1.0.0-beta.2",
+  "version": "1.0.0-beta.3",
   "description": "City of Helsinki themed Boostrap 3 SASS library",
   "style": "src/sass/_hel-bootstrap-theme.scss",
   "sass": "src/sass/_hel-bootstrap-theme.scss",
