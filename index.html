@@ -110,9 +110,7 @@
         
             <li><a href="#install">Install</a></li>
         
-            <li><a href="#use-as-it-is">Use as it is</a></li>
-        
-            <li><a href="#use-as-customised">Use as customised</a></li>
+            <li><a href="#use-customised">Use customised</a></li>
         
             <li><a href="#files">Files</a></li>
         
@@ -127,8 +125,7 @@
                 <div class="col-md-9" role="main">
 
 <h1 id="city-of-helsinki-bootstrap-3-theme">City of Helsinki Bootstrap 3 Theme</h1>
-<p>:bangbang: :bangbang: :bangbang: Under development. For setup testing purposes only :bangbang: :bangbang: :bangbang:</p>
-<p>This is the documentation for City of Helsinki <a href="https://getboostrap.com">Bootstrap</a> theme. We are currently testing the best ways to deliver theming documentation and files.</p>
+<p>City of Helsinki <a href="https://getboostrap.com">Bootstrap</a> theme. <strong>Beta</strong></p>
 <h2 id="contents">Contents</h2>
 <ul>
 <li>Documentation - Made with <a href="http://www.mkdocs.org">Mkdocs</a></li>
@@ -139,14 +136,9 @@
 <pre><code>npm install hel-bootstrap-3
 </code></pre>
 
-<p>(Not yet published install from Github repo instead)</p>
-<h2 id="use-as-it-is">Use as it is</h2>
-<p>You can now either import the default theme with all components</p>
-<pre><code>@import hel-bootstrap-theme;
-</code></pre>
-
-<h2 id="use-as-customised">Use as customised</h2>
-<p>Or customise the theme for your application and exclude the Bootstrap components you are not using</p>
+<p>NOTE: This probably <a href="https://github.com/City-of-Helsinki/hel-bootstrap-3/issues/10">fails</a> on most enviroments as the sass files can not find each other or their dependencies. So importing individual files recommended for now:</p>
+<h2 id="use-customised">Use customised</h2>
+<p>Import the sass files in this order. Customise the theme for your application and exclude the Bootstrap components you are not using.</p>
 <pre><code>@import helsinki-variables;
 
 @import application-variables; // Copy and edit this file to customise your app theme
