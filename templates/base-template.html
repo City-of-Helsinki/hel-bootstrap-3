@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="fi">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <title>Helsinki Bootstrap 3 Base</title>
+
+    <link rel="shortcut icon" href="favicon.ico" />
+    <link rel="stylesheet" href="css/hel-bootstrap-3-1.0.0-beta.4.css">
+    <link rel="stylesheet" href="css/hel-elements.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+
+    <!-- open graph, twitter and content meta tags -->
+
+  </head>
+  <body style="background-color: #eee;">
+    <header>
+      <nav class="navbar navbar-fixed-top navbar-default" role="navigation">
+        <div class="container-fluid">
+          <!-- Brand and toggle get grouped for better mobile display -->
+          <div class="navbar-header">
+              <button data-target=".navbar-collapse" data-toggle="collapse" class="navbar-toggle" type="button">
+                <span class="sr-only">Valikko</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+              </button>
+              <a href="#site-root" class="navbar-brand" title="Site Title" data-placement="bottom">
+                Site Title
+              </a>
+          </div>
+
+          <!-- Collect the nav links, forms, and other content for toggling -->
+          <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+              <ul class="nav navbar-nav">
+                <li class="">
+                  <a href="#pageurl">First page</a>
+                </li>
+                <li class="">
+                  <a href="#pageurl">Second page</a>
+                </li>
+              </ul>
+          </div>
+        </div>
+      </nav>
+    </header>
+
+    <!-- Use <main> landmark to help screenreaders -->
+    <div class="push-footer">
+      <main>
+        <!-- hero section with background image -->
+        <section class="sesction--site-hero bg-cover-image" style="background-image: url('https://source.unsplash.com/5Rgr_zI7pBw');">
+          <div class="container">
+            <div class="row">
+              <img src="images/helsinki-logo-white.svg" class="hero-logo">
+            </div>
+            <div class="col-sm-10 col-md-8 col-lg-7 hero-content">
+              <h2>This is a large headline for site hero</h2>
+              <p>This is a blurb text for site hero.</p>
+            </div>
+          </div>
+        </section>
+        <!-- content section with background color -->
+        <section class="section--content bg-hel-fog">
+          <div class="container">
+            <h2>This is a content section with <em>Fog</em> background</h2>
+            <p>This is content section text.</p>
+          </div>
+        </section>
+        <section class="section--content bg-hel-metro">
+          <div class="container">
+            <h2>This is a content section with <em>Metro</em> background</h2>
+            <p>This is content section text.</p>
+          </div>
+        </section>
+      </main>
+    </div>
+
+    <!-- Site footer -->
+    <footer class="site-footer">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-3 col-md-push-6 col-sm-4 col-sm-push-4">
+          </div>
+          <div class="col-md-3 col-md-pull-3 col-sm-4 col-sm-pull-4">
+            <div class="footer-branding footer-branding-helsinki">
+              <a href="http://www.hel.fi">
+                <img alt="Helsingin tunnus" src="images/helsinki-logo-white.svg" class="footer-logo footer-logo-helsinki" aria-hidden="true">
+              </a>
+            </div>
+          </div>
+          <div class="col-md-3 col-md-push-3 col-sm-4">
+            <div class="page-footer-block">
+              <ul class="footer-links">
+                <li></li>
+              </ul>
+            </div>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-xs-12">
+            <div class="site-footer-small-print">
+              <ul class="small-print-nav list-inline">
+                <li><a href="#yhteystiedot">Ota yhteyttä</a></li>
+                <li>2017 Helsingin kaupunki</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </footer>
+
+    <!-- Including Bootstrap JS (with its jQuery dependency) so that dynamic components work -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
+  </body>
+</html>

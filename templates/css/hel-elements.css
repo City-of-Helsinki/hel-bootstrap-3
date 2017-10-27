@@ -1,0 +1,131 @@
+/* Styles to keep footer in the bottom of page even when there is little main content */
+
+html, body {
+  height: 100%;
+}
+
+body {
+  padding-top: 60px;
+}
+
+.push-footer {
+  min-height: 100%;
+}
+
+main {
+  overflow:auto;
+  padding-bottom:14em;
+}
+
+/* Site hero */
+
+.hero-content {
+  margin-top: 24px;
+  color: #ffffff;
+  font-size: 16px;
+  min-height: 360px;
+  position: relative;
+  text-shadow: 1px 1px 4px rgba(0, 0, 0, 0.2);
+}
+
+.hero-content h2 {
+  font-size: 48px;
+  line-height: 1em;
+  margin: 0 0 24px;
+}
+
+@media screen and (min-width: 768px) {
+
+  .hero-content {
+    font-size: 24px;
+  }
+
+  .hero-content h2 {
+    font-size: 60px;
+  }
+}
+
+.hero-logo {
+  float: right;
+  height: 48px;
+  margin: 24px 24px 0 0;
+  -webkit-filter: drop-shadow(1px 1px 4px rgba(0, 0, 0, 0.2));
+  filter: drop-shadow(1px 1px 4px rgba(0, 0, 0, 0.2));
+}
+
+@media screen and (min-width: 1200px) {
+  .hero-logo {
+      height: 96px;
+      margin: 48px 48px 0 0;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .hero-logo {
+      height: 72px;
+      margin: 36px 36px 0 0;
+  }
+}
+
+
+
+/* Section backgrounds */
+
+.section--content {
+  padding: 48px 0;
+  position: relative;
+}
+
+.bg-cover-image {
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.bg-hel-fog {
+  background-color: #9fc9eb;
+  color: #000000;
+}
+
+.bg-hel-metro {
+  background-color: #fd4f00;
+  color: #ffffff;
+}
+
+
+/* Site footer */
+
+.site-footer {
+  position: relative;
+  margin-top: -14em;
+  min-height: 14em;
+  clear:both;
+  background-color: #231f20;
+  color: #ffffff;
+  min-height: 14em;
+  padding: 72px 0;
+}
+
+.site-footer a {
+  color: #fff;
+}
+
+.footer-branding .footer-logo {
+  margin: 0 auto 1em;
+  max-width: 8em;
+}
+
+.site-footer .footer-links {
+  list-style: none;
+  padding-left: 0;
+}
+
+.site-footer-small-print {
+  margin-top: 2em;
+  text-align: right;
+}
+
+.small-print-nav {
+  color: #ebedf1;
+  font-size: 14px;
+}
